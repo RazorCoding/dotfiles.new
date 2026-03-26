@@ -1,0 +1,23 @@
+ytdl-raw-options=cookies-from-browser=chromium,ignore-config=,sub-lang=en,eng,enUS,en-US,write-sub=,write-auto-sub=
+
+# --- bonus mpv tips ---
+
+# define the quality for mpv to use
+ytdl-format="(bestvideo[vcodec^=avc1][height<=1080][height>=720]+bestaudio)/best[vcodec^=avc1][height<=1080][height>=720]"
+
+# defines where screenshots will be saved
+screenshot-directory=~/Pictures/mpv_screenshots/
+
+vo=gpu
+hwdec=vaapi
+gpu-api=opengl
+gpu-context=wayland
+
+ao=pulse
+audio-channels=2
+
+# for subs something like this
+slang=en,eng,enUS,en-US
+sub-auto=fuzzy
+ytdl-raw-options=ignore-config=,sub-lang="en,eng,enUS,en-US",write-sub=,write-auto-sub=
+log-file="~~/mpv.log"

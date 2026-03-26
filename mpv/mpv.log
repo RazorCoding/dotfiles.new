@@ -1,0 +1,1321 @@
+[   0.000][v][cplayer] Command line options: 'Kantara - A Legend Chapter 1 (2025) UNCUT 720p 10bit DS4K AMZN WEBRip x265 HEVC [LiNE Hindi DD 2.0 ~192Kbps + Kannada DD 2.0] ESub - Immortal.mkv'
+[   0.000][v][cplayer] mpv v0.41.0 Copyright © 2000-2025 mpv/MPlayer/mplayer2 projects
+[   0.000][v][cplayer]  built on Dec 22 2025 14:58:51
+[   0.000][v][cplayer] libplacebo version: v7.351.0
+[   0.000][v][cplayer] FFmpeg version: n8.0.1
+[   0.000][v][cplayer] FFmpeg library versions:
+[   0.000][v][cplayer]    libavcodec      62.11.100
+[   0.000][v][cplayer]    libavdevice     62.1.100
+[   0.000][v][cplayer]    libavfilter     11.4.100
+[   0.000][v][cplayer]    libavformat     62.3.100
+[   0.000][v][cplayer]    libavutil       60.8.100
+[   0.000][v][cplayer]    libswresample   6.1.100
+[   0.000][v][cplayer]    libswscale      9.1.100
+[   0.000][v][cplayer] Configuration: -Db_pie=true -Dpython.bytecompile=1 -Dlibmpv=true -Dgl-x11=enabled -Dcaca=disabled -Dcdda=enabled -Ddrm=enabled -Ddvbin=enabled -Ddvdnav=enabled -Dlibarchive=enabled -Dopenal=enabled -Dsdl2-audio=enabled -Dsdl2-video=enabled -Dsdl2-gamepad=enabled -Dprefix=/usr -Dlibexecdir=lib -Dsbindir=bin -Dauto_features=auto -Dbuildtype=plain -Dwrap_mode=nodownload
+[   0.000][v][cplayer] List of enabled features: alsa build-date cdda cplugins cuda-hwaccel cuda-interop dmabuf-interop-gl dmabuf-wayland drm dvbin dvdnav egl egl-drm egl-wayland egl-x11 ffmpeg ffnvcodec gbm gl gl-x11 glibc-thread-name glob glob-posix gpl iconv jack javascript jpeg lcms2 libarchive libass libavdevice libbluray libdl libplacebo linux-fstatfs luajit memfd-create memrchr openal pipewire posix posix-shm ppoll pthread-condattr-setclock pulse rubberband rubberband-3 sdl2-audio sdl2-gamepad sdl2-video sixel uchardet vaapi vaapi-drm vaapi-wayland vaapi-x11 vapoursynth vdpau vdpau-gl-x11 vector vk-khr-display vt.h vulkan wayland wayland-protocols-1-32 wayland-protocols-1-38 wayland-protocols-1-39 wayland-protocols-1-41 wayland-protocols-1-44 wayland-protocols-1-47 x11 x11-clipboard xv zimg zimg-st428 zlib
+[   0.000][d][global] home path: '' -> '/home/Gnana/.config/mpv'
+[   0.000][d][global] user path: '~~home/' -> '/home/Gnana/.config/mpv'
+[   0.000][d][global] user path: '~~old_home/' -> '/home/Gnana/.mpv'
+[   0.000][d][global] config path: 'encoding-profiles.conf' -/-> '/home/Gnana/.config/mpv/encoding-profiles.conf'
+[   0.000][d][global] config path: 'encoding-profiles.conf' -/-> '/home/Gnana/.mpv/encoding-profiles.conf'
+[   0.000][d][global] config path: 'encoding-profiles.conf' -/-> '/etc/mpv/encoding-profiles.conf'
+[   0.000][d][global] config path: 'mpv.conf' -> '/home/Gnana/.config/mpv/mpv.conf'
+[   0.000][d][global] config path: 'config' -/-> '/home/Gnana/.config/mpv/config'
+[   0.000][d][global] config path: 'mpv.conf' -/-> '/home/Gnana/.mpv/mpv.conf'
+[   0.000][d][global] config path: 'config' -/-> '/home/Gnana/.mpv/config'
+[   0.000][d][global] config path: 'mpv.conf' -/-> '/etc/mpv/mpv.conf'
+[   0.000][d][global] config path: 'config' -/-> '/etc/mpv/config'
+[   0.000][v][cplayer] Reading config file /home/Gnana/.config/mpv/mpv.conf
+[   0.000][v][ifo_dvdnav] Opening /home/Gnana/.config/mpv/mpv.conf
+[   0.000][v][bdmv/bluray] Opening /home/Gnana/.config/mpv/mpv.conf
+[   0.000][v][file] Opening /home/Gnana/.config/mpv/mpv.conf
+[   0.000][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.000][d][file] Stream opened successfully.
+[   0.000][v][cplayer] Applying profile 'default'...
+[   0.000][v][cplayer] Setting option 'ytdl-raw-options' = 'cookies-from-browser=chromium,ignore-config=,sub-lang=en,eng,enUS,en-US,write-sub=,write-auto-sub=' (flags = 4)
+[   0.000][v][cplayer] Setting option 'ytdl-format' = '(bestvideo[vcodec^=avc1][height<=1080][height>=720]+bestaudio)/best[vcodec^=avc1][height<=1080][height>=720]' (flags = 4)
+[   0.000][v][cplayer] Setting option 'screenshot-directory' = '~/Pictures/mpv_screenshots/' (flags = 4)
+[   0.000][v][cplayer] Setting option 'vo' = 'gpu' (flags = 4)
+[   0.000][v][cplayer] Setting option 'hwdec' = 'vaapi' (flags = 4)
+[   0.000][v][cplayer] Setting option 'gpu-api' = 'opengl' (flags = 4)
+[   0.000][v][cplayer] Setting option 'gpu-context' = 'wayland' (flags = 4)
+[   0.000][v][cplayer] Setting option 'ao' = 'pulse' (flags = 4)
+[   0.000][v][cplayer] Setting option 'audio-channels' = '2' (flags = 4)
+[   0.000][v][cplayer] Setting option 'slang' = 'en,eng,enUS,en-US' (flags = 4)
+[   0.000][v][cplayer] Setting option 'sub-auto' = 'fuzzy' (flags = 4)
+[   0.000][v][cplayer] Setting option 'ytdl-raw-options' = 'ignore-config=,sub-lang="en,eng,enUS,en-US",write-sub=,write-auto-sub=' (flags = 4)
+[   0.000][v][cplayer] Setting option 'log-file' = '~~/mpv.log' (flags = 4)
+[   0.000][d][global] config path: 'input.conf' -/-> '/home/Gnana/.config/mpv/input.conf'
+[   0.000][d][global] config path: 'input.conf' -/-> '/home/Gnana/.mpv/input.conf'
+[   0.000][d][global] config path: 'input.conf' -/-> '/etc/mpv/input.conf'
+[   0.000][d][global] config path: 'mpv.log' -> '/home/Gnana/.config/mpv/mpv.log'
+[   0.000][d][global] user path: '~~/mpv.log' -> '/home/Gnana/.config/mpv/mpv.log'
+[   0.003][v][cplayer] mpv v0.41.0 Copyright © 2000-2025 mpv/MPlayer/mplayer2 projects
+[   0.003][v][cplayer]  built on Dec 22 2025 14:58:51
+[   0.003][v][cplayer] libplacebo version: v7.351.0
+[   0.003][v][cplayer] FFmpeg version: n8.0.1
+[   0.003][v][cplayer] FFmpeg library versions:
+[   0.003][v][cplayer]    libavcodec      62.11.100
+[   0.003][v][cplayer]    libavdevice     62.1.100
+[   0.003][v][cplayer]    libavfilter     11.4.100
+[   0.003][v][cplayer]    libavformat     62.3.100
+[   0.003][v][cplayer]    libavutil       60.8.100
+[   0.003][v][cplayer]    libswresample   6.1.100
+[   0.003][v][cplayer]    libswscale      9.1.100
+[   0.003][v][cplayer] Configuration: -Db_pie=true -Dpython.bytecompile=1 -Dlibmpv=true -Dgl-x11=enabled -Dcaca=disabled -Dcdda=enabled -Ddrm=enabled -Ddvbin=enabled -Ddvdnav=enabled -Dlibarchive=enabled -Dopenal=enabled -Dsdl2-audio=enabled -Dsdl2-video=enabled -Dsdl2-gamepad=enabled -Dprefix=/usr -Dlibexecdir=lib -Dsbindir=bin -Dauto_features=auto -Dbuildtype=plain -Dwrap_mode=nodownload
+[   0.003][v][cplayer] List of enabled features: alsa build-date cdda cplugins cuda-hwaccel cuda-interop dmabuf-interop-gl dmabuf-wayland drm dvbin dvdnav egl egl-drm egl-wayland egl-x11 ffmpeg ffnvcodec gbm gl gl-x11 glibc-thread-name glob glob-posix gpl iconv jack javascript jpeg lcms2 libarchive libass libavdevice libbluray libdl libplacebo linux-fstatfs luajit memfd-create memrchr openal pipewire posix posix-shm ppoll pthread-condattr-setclock pulse rubberband rubberband-3 sdl2-audio sdl2-gamepad sdl2-video sixel uchardet vaapi vaapi-drm vaapi-wayland vaapi-x11 vapoursynth vdpau vdpau-gl-x11 vector vk-khr-display vt.h vulkan wayland wayland-protocols-1-32 wayland-protocols-1-38 wayland-protocols-1-39 wayland-protocols-1-41 wayland-protocols-1-44 wayland-protocols-1-47 x11 x11-clipboard xv zimg zimg-st428 zlib
+[   0.003][d][osc] Loading lua script @osc.lua...
+[   0.003][d][ytdl_hook] Loading lua script @ytdl_hook.lua...
+[   0.003][d][stats] Loading lua script @stats.lua...
+[   0.003][d][console] Loading lua script @console.lua...
+[   0.003][d][auto_profiles] Loading lua script @auto_profiles.lua...
+[   0.003][d][osc] loading mp.defaults
+[   0.003][d][ytdl_hook] loading mp.defaults
+[   0.003][d][select] Loading lua script @select.lua...
+[   0.003][d][positioning] Loading lua script @positioning.lua...
+[   0.003][d][stats] loading mp.defaults
+[   0.003][d][console] loading mp.defaults
+[   0.003][d][auto_profiles] loading mp.defaults
+[   0.003][d][commands] Loading lua script @commands.lua...
+[   0.003][d][context_menu] Loading lua script @context_menu.lua...
+[   0.003][d][select] loading mp.defaults
+[   0.003][d][positioning] loading mp.defaults
+[   0.003][d][commands] loading mp.defaults
+[   0.003][d][context_menu] loading mp.defaults
+[   0.003][d][ytdl_hook] loading @ytdl_hook.lua
+[   0.003][v][clipboard/wayland] Registered interface wl_seat at version 8
+[   0.004][v][clipboard/wayland] Registered interface ext_data_control_manager_v1 at version 1
+[   0.004][d][osc] loading @osc.lua
+[   0.004][d][console] loading @console.lua
+[   0.004][d][stats] loading @stats.lua
+[   0.004][v][clipboard] Initialized wayland clipboard backend.
+[   0.004][d][auto_profiles] loading @auto_profiles.lua
+[   0.004][d][global] config path: 'scripts' -/-> '/home/Gnana/.config/mpv/scripts'
+[   0.004][d][global] config path: 'scripts' -/-> '/home/Gnana/.mpv/scripts'
+[   0.004][d][global] config path: 'scripts' -/-> '/etc/mpv/scripts'
+[   0.004][v][cplayer] Waiting for scripts...
+[   0.004][v][clipboard/wayland] Read 3 bytes from the data offer fd
+[   0.004][d][positioning] loading @positioning.lua
+[   0.004][v][clipboard/wayland] Read 3 bytes from the data offer fd
+[   0.004][d][select] loading @select.lua
+[   0.004][d][commands] loading @commands.lua
+[   0.004][d][ytdl_hook] reading options for ytdl_hook
+[   0.004][d][positioning] reading options for positioning
+[   0.004][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/home/Gnana/.config/mpv/script-opts/ytdl_hook.conf'
+[   0.004][d][global] config path: 'script-opts/positioning.conf' -/-> '/home/Gnana/.config/mpv/script-opts/positioning.conf'
+[   0.004][d][global] config path: 'script-opts/positioning.conf' -/-> '/home/Gnana/.mpv/script-opts/positioning.conf'
+[   0.004][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/home/Gnana/.mpv/script-opts/ytdl_hook.conf'
+[   0.004][d][global] config path: 'script-opts/positioning.conf' -/-> '/etc/mpv/script-opts/positioning.conf'
+[   0.004][d][positioning] script-opts/positioning.conf not found.
+[   0.004][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> '/etc/mpv/script-opts/ytdl_hook.conf'
+[   0.004][d][global] config path: 'lua-settings/positioning.conf' -/-> '/home/Gnana/.config/mpv/lua-settings/positioning.conf'
+[   0.004][d][global] config path: 'lua-settings/positioning.conf' -/-> '/home/Gnana/.mpv/lua-settings/positioning.conf'
+[   0.004][d][global] config path: 'lua-settings/positioning.conf' -/-> '/etc/mpv/lua-settings/positioning.conf'
+[   0.004][d][positioning] lua-settings/positioning.conf not found.
+[   0.004][d][ytdl_hook] script-opts/ytdl_hook.conf not found.
+[   0.004][d][context_menu] loading @context_menu.lua
+[   0.004][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/home/Gnana/.config/mpv/lua-settings/ytdl_hook.conf'
+[   0.004][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/home/Gnana/.mpv/lua-settings/ytdl_hook.conf'
+[   0.004][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> '/etc/mpv/lua-settings/ytdl_hook.conf'
+[   0.004][d][ytdl_hook] lua-settings/ytdl_hook.conf not found.
+[   0.004][d][cplayer] Run command: define-section, flags=64, args=[name="input_positioning", contents="", flags="default"]
+[   0.004][d][cplayer] Run command: enable-section, flags=64, args=[name="input_positioning", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.004][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_positioning", contents="", flags="force"]
+[   0.004][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_positioning", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.005][d][select] reading options for select
+[   0.005][d][global] config path: 'script-opts/select.conf' -/-> '/home/Gnana/.config/mpv/script-opts/select.conf'
+[   0.005][d][global] config path: 'script-opts/select.conf' -/-> '/home/Gnana/.mpv/script-opts/select.conf'
+[   0.005][d][global] config path: 'script-opts/select.conf' -/-> '/etc/mpv/script-opts/select.conf'
+[   0.005][d][select] script-opts/select.conf not found.
+[   0.005][d][global] config path: 'lua-settings/select.conf' -/-> '/home/Gnana/.config/mpv/lua-settings/select.conf'
+[   0.005][d][global] config path: 'lua-settings/select.conf' -/-> '/home/Gnana/.mpv/lua-settings/select.conf'
+[   0.005][d][global] config path: 'lua-settings/select.conf' -/-> '/etc/mpv/lua-settings/select.conf'
+[   0.005][d][select] lua-settings/select.conf not found.
+[   0.005][d][commands] reading options for commands
+[   0.005][d][global] config path: 'script-opts/commands.conf' -/-> '/home/Gnana/.config/mpv/script-opts/commands.conf'
+[   0.005][d][global] config path: 'script-opts/commands.conf' -/-> '/home/Gnana/.mpv/script-opts/commands.conf'
+[   0.005][d][global] config path: 'script-opts/commands.conf' -/-> '/etc/mpv/script-opts/commands.conf'
+[   0.005][d][commands] script-opts/commands.conf not found.
+[   0.005][d][global] config path: 'lua-settings/commands.conf' -/-> '/home/Gnana/.config/mpv/lua-settings/commands.conf'
+[   0.005][d][global] config path: 'lua-settings/commands.conf' -/-> '/home/Gnana/.mpv/lua-settings/commands.conf'
+[   0.005][d][global] config path: 'lua-settings/commands.conf' -/-> '/etc/mpv/lua-settings/commands.conf'
+[   0.005][d][commands] lua-settings/commands.conf not found.
+[   0.005][d][context_menu] reading options for context_menu
+[   0.005][d][global] config path: 'script-opts/context_menu.conf' -/-> '/home/Gnana/.config/mpv/script-opts/context_menu.conf'
+[   0.005][d][global] config path: 'script-opts/context_menu.conf' -/-> '/home/Gnana/.mpv/script-opts/context_menu.conf'
+[   0.005][d][global] config path: 'script-opts/context_menu.conf' -/-> '/etc/mpv/script-opts/context_menu.conf'
+[   0.005][d][context_menu] script-opts/context_menu.conf not found.
+[   0.005][d][global] config path: 'lua-settings/context_menu.conf' -/-> '/home/Gnana/.config/mpv/lua-settings/context_menu.conf'
+[   0.005][d][global] config path: 'lua-settings/context_menu.conf' -/-> '/home/Gnana/.mpv/lua-settings/context_menu.conf'
+[   0.005][d][global] config path: 'lua-settings/context_menu.conf' -/-> '/etc/mpv/lua-settings/context_menu.conf'
+[   0.005][d][context_menu] lua-settings/context_menu.conf not found.
+[   0.005][d][console] reading options for console
+[   0.005][d][global] config path: 'script-opts/console.conf' -/-> '/home/Gnana/.config/mpv/script-opts/console.conf'
+[   0.005][d][auto_profiles] Destroying client handle...
+[   0.005][d][cplayer] Run command: define-section, flags=64, args=[name="input_select", contents="", flags="default"]
+[   0.005][d][global] config path: 'script-opts/console.conf' -/-> '/home/Gnana/.mpv/script-opts/console.conf'
+[   0.005][d][global] config path: 'script-opts/console.conf' -/-> '/etc/mpv/script-opts/console.conf'
+[   0.005][d][console] script-opts/console.conf not found.
+[   0.005][d][cplayer] Run command: enable-section, flags=64, args=[name="input_select", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.005][d][global] config path: 'lua-settings/console.conf' -/-> '/home/Gnana/.config/mpv/lua-settings/console.conf'
+[   0.005][d][global] config path: 'lua-settings/console.conf' -/-> '/home/Gnana/.mpv/lua-settings/console.conf'
+[   0.005][d][global] config path: 'lua-settings/console.conf' -/-> '/etc/mpv/lua-settings/console.conf'
+[   0.005][d][console] lua-settings/console.conf not found.
+[   0.005][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_select", contents="", flags="force"]
+[   0.005][d][cplayer] Run command: define-section, flags=64, args=[name="input_commands", contents="", flags="default"]
+[   0.005][d][cplayer] Run command: enable-section, flags=64, args=[name="input_commands", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.005][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_commands", contents="", flags="force"]
+[   0.005][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_select", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.005][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_commands", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.005][d][stats] reading options for stats
+[   0.005][d][global] config path: 'script-opts/stats.conf' -/-> '/home/Gnana/.config/mpv/script-opts/stats.conf'
+[   0.005][d][global] config path: 'script-opts/stats.conf' -/-> '/home/Gnana/.mpv/script-opts/stats.conf'
+[   0.005][d][global] config path: 'script-opts/stats.conf' -/-> '/etc/mpv/script-opts/stats.conf'
+[   0.005][d][stats] script-opts/stats.conf not found.
+[   0.005][d][global] config path: 'lua-settings/stats.conf' -/-> '/home/Gnana/.config/mpv/lua-settings/stats.conf'
+[   0.005][d][global] config path: 'lua-settings/stats.conf' -/-> '/home/Gnana/.mpv/lua-settings/stats.conf'
+[   0.005][d][global] config path: 'lua-settings/stats.conf' -/-> '/etc/mpv/lua-settings/stats.conf'
+[   0.005][d][stats] lua-settings/stats.conf not found.
+[   0.005][d][cplayer] Run command: define-section, flags=64, args=[name="input_console", contents="", flags="default"]
+[   0.005][d][cplayer] Run command: enable-section, flags=64, args=[name="input_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.005][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_console", contents="", flags="force"]
+[   0.005][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_console", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.006][d][cplayer] Run command: define-section, flags=64, args=[name="input_stats", contents="", flags="default"]
+[   0.006][d][cplayer] Run command: enable-section, flags=64, args=[name="input_stats", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.006][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_stats", contents="", flags="force"]
+[   0.006][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_stats", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.006][d][cplayer] Run command: define-section, flags=64, args=[name="showhide", contents="mouse_move script-binding osc/__keybinding1\nmouse_leave script-binding osc/__keybinding2\n", flags="force"]
+[   0.006][d][cplayer] Run command: define-section, flags=64, args=[name="showhide_wc", contents="mouse_move script-binding osc/__keybinding3\nmouse_leave script-binding osc/__keybinding4\n", flags="force"]
+[   0.006][d][cplayer] Run command: enable-section, flags=64, args=[name="showhide", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.006][d][cplayer] Run command: enable-section, flags=64, args=[name="showhide_wc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.006][d][cplayer] Run command: define-section, flags=64, args=[name="input", contents="mbtn_left script-binding osc/__keybinding5\nmbtn_mid script-binding osc/__keybinding6\nmbtn_right script-binding osc/__keybinding7\nshift+mbtn_left script-binding osc/__keybinding8\nwheel_up script-binding osc/__keybinding9\nwheel_down script-binding osc/__keybinding10\nmbtn_left_dbl ignore\nshift+mbtn_left_dbl ignore\nmbtn_right_dbl ignore\n", flags="force"]
+[   0.006][d][cplayer] Run command: enable-section, flags=64, args=[name="input", flags=""]
+[   0.006][d][cplayer] Run command: define-section, flags=64, args=[name="window-controls", contents="mbtn_left script-binding osc/__keybinding11\n", flags="force"]
+[   0.006][d][cplayer] Run command: enable-section, flags=64, args=[name="window-controls", flags=""]
+[   0.006][d][osc] reading options for osc
+[   0.006][d][global] config path: 'script-opts/osc.conf' -/-> '/home/Gnana/.config/mpv/script-opts/osc.conf'
+[   0.006][d][global] config path: 'script-opts/osc.conf' -/-> '/home/Gnana/.mpv/script-opts/osc.conf'
+[   0.006][d][global] config path: 'script-opts/osc.conf' -/-> '/etc/mpv/script-opts/osc.conf'
+[   0.006][d][osc] script-opts/osc.conf not found.
+[   0.006][d][global] config path: 'lua-settings/osc.conf' -/-> '/home/Gnana/.config/mpv/lua-settings/osc.conf'
+[   0.006][d][global] config path: 'lua-settings/osc.conf' -/-> '/home/Gnana/.mpv/lua-settings/osc.conf'
+[   0.006][d][global] config path: 'lua-settings/osc.conf' -/-> '/etc/mpv/lua-settings/osc.conf'
+[   0.006][d][osc] lua-settings/osc.conf not found.
+[   0.007][v][cplayer] Set property: user-data/osc/visibility="auto" -> 1
+[   0.007][d][cplayer] Run command: disable-section, flags=64, args=[name="input"]
+[   0.007][d][cplayer] Run command: disable-section, flags=64, args=[name="window-controls"]
+[   0.007][v][cplayer] Set property: user-data/osc/margins={"t":0,"b":0,"r":0,"l":0} -> 1
+[   0.007][v][cplayer] Done loading scripts.
+[   0.007][d][global] state path: 'watch_later' -> '/home/Gnana/.local/state/mpv/watch_later'
+[   0.007][v][cplayer] Running hook: auto_profiles/on_before_start_file
+[   0.007][v][cplayer] Failed sending hook command auto_profiles/on_before_start_file. Removing hook.
+[   0.007][d][global] state path: 'watch_later' -> '/home/Gnana/.local/state/mpv/watch_later'
+[   0.007][v][cplayer] Running hook: auto_profiles/on_load
+[   0.007][v][cplayer] Failed sending hook command auto_profiles/on_load. Removing hook.
+[   0.007][v][cplayer] Running hook: ytdl_hook/on_load
+[   0.007][v][cplayer] Running hook: ytdl_hook/on_load
+[   0.007][v][ytdl_hook] playlist hook
+[   0.007][v][ifo_dvdnav] Opening Kantara - A Legend Chapter 1 (2025) UNCUT 720p 10bit DS4K AMZN WEBRip x265 HEVC [LiNE Hindi DD 2.0 ~192Kbps + Kannada DD 2.0] ESub - Immortal.mkv
+[   0.007][v][cplayer] Set property: user-data/osc/margins={"t":0,"b":0,"r":0,"l":0} -> 1
+[   0.007][d][osc] osc_init
+[   0.007][v][bdmv/bluray] Opening Kantara - A Legend Chapter 1 (2025) UNCUT 720p 10bit DS4K AMZN WEBRip x265 HEVC [LiNE Hindi DD 2.0 ~192Kbps + Kannada DD 2.0] ESub - Immortal.mkv
+[   0.007][v][file] Opening Kantara - A Legend Chapter 1 (2025) UNCUT 720p 10bit DS4K AMZN WEBRip x265 HEVC [LiNE Hindi DD 2.0 ~192Kbps + Kannada DD 2.0] ESub - Immortal.mkv
+[   0.007][d][file] resize stream to 131072 bytes, drop 0 bytes
+[   0.007][d][file] Stream opened successfully.
+[   0.008][v][demux] Trying demuxers for level=normal.
+[   0.008][d][demux] Trying demuxer: directory (force-level: normal)
+[   0.008][v][cplayer] Set property: user-data/osc/margins={"t":0,"b":0,"r":0,"l":0} -> 1
+[   0.008][d][global] config path: 'fonts' -/-> '/home/Gnana/.config/mpv/fonts'
+[   0.008][d][global] config path: 'fonts' -/-> '/home/Gnana/.mpv/fonts'
+[   0.008][d][global] config path: 'fonts' -/-> '/etc/mpv/fonts'
+[   0.008][d][osd/libass] ASS library version: 0x1704000 (runtime 0x1704000)
+[   0.008][v][osd/libass] libass API version: 0x1704000
+[   0.008][v][osd/libass] libass source: commit: 0.17.4-0-gbbb3c7f1570a4a021e52683f3fbdf74fe492ae84
+[   0.008][d][demux] Trying demuxer: disc (force-level: normal)
+[   0.008][d][demux] Trying demuxer: edl (force-level: normal)
+[   0.008][d][demux] Trying demuxer: cue (force-level: normal)
+[   0.008][d][demux] Trying demuxer: rawaudio (force-level: normal)
+[   0.008][d][demux] Trying demuxer: rawvideo (force-level: normal)
+[   0.008][d][demux] Trying demuxer: mkv (force-level: normal)
+[   0.008][d][mkv] Found the head...
+[   0.008][d][mkv] + a segment...
+[   0.008][d][mkv] Parsing seek head...
+[   0.008][d][mkv] |+ segment information...
+[   0.008][d][mkv] float 10008000.000000
+[   0.008][d][mkv] | + muxing app: libebml v1.3.9 + libmatroska v1.5.2
+[   0.008][d][mkv] | + writing app: mkvmerge v41.0.0 ('Smarra') 64-bit
+[   0.008][d][mkv] | + timecode scale: 1000000
+[   0.008][d][mkv] | + duration: 10008.000s
+[   0.008][d][mkv] | + segment uid cd b0 57 5e b1 e1 73 8a cd dd 85 a4 77 a2 d7 93
+[   0.008][d][mkv] |+ segment tracks...
+[   0.008][v][osd/libass] Shaper: FriBidi 1.0.16 (SIMPLE) HarfBuzz-ng 12.3.2 (COMPLEX)
+[   0.008][d][global] config path: 'subfont.ttf' -/-> '/home/Gnana/.config/mpv/subfont.ttf'
+[   0.008][d][global] config path: 'subfont.ttf' -/-> '/home/Gnana/.mpv/subfont.ttf'
+[   0.008][d][mkv] float 48000.000000
+[   0.008][d][mkv] float 48000.000000
+[   0.008][d][mkv] | + a track...
+[   0.008][d][mkv] |  + Track number: 1
+[   0.008][d][mkv] |  + Name: Encoded By ~ Immortal
+[   0.008][d][mkv] |  + Track type: Video
+[   0.008][d][mkv] |  + Video track
+[   0.008][d][mkv] |   + Display width: 1280
+[   0.008][d][mkv] |   + Display height: 534
+[   0.008][d][mkv] |   + Pixel width: 1280
+[   0.008][d][mkv] |   + Pixel height: 534
+[   0.008][d][mkv] |    + Matrix: bt.709
+[   0.008][d][mkv] |    + ChromaLocation: mpeg2/4/h264
+[   0.008][d][mkv] |    + Primaries: bt.709
+[   0.008][d][mkv] |    + Gamma: bt.1886
+[   0.008][d][mkv] |    + Levels: limited
+[   0.008][d][mkv] |  + Codec ID: V_MPEGH/ISO/HEVC
+[   0.008][d][mkv] |  + CodecPrivate, length 119
+[   0.008][d][mkv] |  + Language: kan
+[   0.008][d][mkv] |  + Forced flag: 1
+[   0.008][d][global] config path: 'subfont.ttf' -/-> '/etc/mpv/subfont.ttf'
+[   0.008][d][global] config path: 'fonts.conf' -/-> '/home/Gnana/.config/mpv/fonts.conf'
+[   0.008][d][global] config path: 'fonts.conf' -/-> '/home/Gnana/.mpv/fonts.conf'
+[   0.008][d][mkv] |  + Default duration: 41.667ms ( = 24.000 fps)
+[   0.008][d][mkv] | + a track...
+[   0.008][d][mkv] |  + Track number: 2
+[   0.008][d][mkv] |  + Name: CAM LiNE Hindi DD 2.0 192Kbps ~ Immortal
+[   0.008][d][mkv] |  + Track type: Audio
+[   0.008][d][mkv] |  + Audio track
+[   0.008][d][mkv] |   + Sampling frequency: 48000.000000
+[   0.008][d][mkv] |   + Channels: 2
+[   0.008][d][mkv] |  + Codec ID: A_AC3
+[   0.008][d][mkv] |  + Language: hin
+[   0.008][d][mkv] |  + Forced flag: 1
+[   0.008][d][mkv] |  + Default duration: 32.000ms ( = 31.250 fps)
+[   0.008][d][mkv] | + a track...
+[   0.008][d][mkv] |  + Track number: 3
+[   0.008][d][mkv] |  + Name: Kannada DD 2.0 ~ Immortal
+[   0.008][d][mkv] |  + Track type: Audio
+[   0.008][d][mkv] |  + Audio track
+[   0.008][d][mkv] |   + Sampling frequency: 48000.000000
+[   0.008][d][mkv] |   + Channels: 2
+[   0.008][d][mkv] |  + Codec ID: A_AC3
+[   0.008][d][mkv] |  + Language: kan
+[   0.008][d][global] config path: 'fonts.conf' -/-> '/etc/mpv/fonts.conf'
+[   0.008][v][osd/libass] Setting up fonts...
+[   0.008][d][mkv] |  + Default flag: 0
+[   0.008][d][mkv] |  + Default duration: 32.000ms ( = 31.250 fps)
+[   0.008][d][mkv] | + a track...
+[   0.008][d][mkv] |  + Track number: 4
+[   0.008][d][mkv] |  + Name: English
+[   0.008][d][mkv] |  + Track type: Subtitle
+[   0.008][d][mkv] |  + Codec ID: S_TEXT/UTF8
+[   0.008][d][mkv] |  + Forced flag: 1
+[   0.008][d][mkv] Parsing attachments...
+[   0.009][d][mkv] Attachment: Immortal Encodes Cover.jpg, image/jpeg, 667497 bytes
+[   0.009][d][mkv] |+ found cluster
+[   0.009][v][mkv] Seeking to 1780255772 to read header element 0x1c53bb6b.
+[   0.009][v][file] stream level seek from 804718 to 1780255772
+[   0.009][v][mkv] Parsing cues...
+[   0.010][v][mkv] Seeking to 1780374833 to read header element 0x1254c367.
+[   0.010][v][file] stream level seek from 1780376353 to 673646
+[   0.010][v][mkv] All headers are parsed!
+[   0.011][v][demux] Detected file format: Matroska
+[   0.011][v][cplayer] Opening done: Kantara - A Legend Chapter 1 (2025) UNCUT 720p 10bit DS4K AMZN WEBRip x265 HEVC [LiNE Hindi DD 2.0 ~192Kbps + Kannada DD 2.0] ESub - Immortal.mkv
+[   0.036][v][osd/libass] Using font provider fontconfig
+[   0.036][v][osd/libass] Done.
+[   0.036][v][find_files] Loading external files in .
+[   0.037][d][global] config path: 'sub' -/-> '/home/Gnana/.config/mpv/sub'
+[   0.037][d][global] config path: 'sub' -/-> '/home/Gnana/.mpv/sub'
+[   0.037][d][global] config path: 'sub' -/-> '/etc/mpv/sub'
+[   0.037][v][cplayer] Running hook: auto_profiles/on_preloaded
+[   0.037][v][cplayer] Failed sending hook command auto_profiles/on_preloaded. Removing hook.
+[   0.037][v][cplayer] Running hook: ytdl_hook/on_preloaded
+[   0.037][v][mkv] select track 0
+[   0.037][v][mkv] select track 1
+[   0.037][v][mkv] select track 3
+[   0.037][i][cplayer] ● Video  --vid=1  --vlang=kan  'Encoded By ~ Immortal' (hevc 1280x534 24 fps) [default forced]
+[   0.037][i][cplayer] ○ Image  --vid=2               'Immortal Encodes Cover.jpg' (mjpeg)
+[   0.037][i][cplayer] ● Audio  --aid=1  --alang=hin  'CAM LiNE Hindi DD 2.0 192Kbps ~ Immortal' (ac3 2ch 48000 Hz) [default forced]
+[   0.037][i][cplayer] ○ Audio  --aid=2  --alang=kan  'Kannada DD 2.0 ~ Immortal' (ac3 2ch 48000 Hz)
+[   0.037][i][cplayer] ● Subs   --sid=1  --slang=eng  'English' (subrip) [default forced]
+[   0.037][i][display-tags] File tags:
+[   0.037][i][display-tags]  Title: Kantara - A Legend Chapter 1 (2025) UNCUT 720p 10bit DS4K AMZN WEBRip x265 HEVC [LiNE Hindi DD 2.0 ~192Kbps + Kannada DD 2.0] ESub - Immortal
+[   0.037][v][vo/gpu/opengl] Initializing GPU context 'wayland'
+[   0.037][v][vo/gpu/wayland] Registered interface wl_seat at version 8
+[   0.037][v][vo/gpu/wayland] Registered interface wl_data_device_manager at version 3
+[   0.037][v][vo/gpu/wayland] Registered interface wl_compositor at version 6
+[   0.037][v][vo/gpu/wayland] Registered interface wl_subcompositor at version 1
+[   0.037][v][vo/gpu/wayland] Registered interface wl_shm at version 1
+[   0.037][v][vo/gpu/wayland] Registered interface wp_viewporter at version 1
+[   0.037][v][vo/gpu/wayland] Registered interface wp_fractional_scale_manager_v1 at version 1
+[   0.037][v][vo/gpu/wayland] Registered interface wp_cursor_shape_manager_v1 at version 2
+[   0.037][v][vo/gpu/wayland] Registered interface zwp_idle_inhibit_manager_v1 at version 1
+[   0.037][v][vo/gpu/wayland] Registered interface zxdg_decoration_manager_v1 at version 1
+[   0.037][v][vo/gpu/wayland] Registered interface zwp_text_input_manager_v3 at version 1
+[   0.037][v][vo/gpu/wayland] Registered interface xdg_activation_v1 at version 1
+[   0.037][v][vo/gpu/wayland] Registered interface zwp_tablet_manager_v2 at version 1
+[   0.037][v][vo/gpu/wayland] Registered interface wp_presentation at version 2
+[   0.037][v][vo/gpu/wayland] Registered interface xdg_wm_base at version 6
+[   0.037][v][vo/gpu/wayland] Registered interface wp_single_pixel_buffer_manager_v1 at version 1
+[   0.037][v][vo/gpu/wayland] Registered interface wp_content_type_manager_v1 at version 1
+[   0.037][v][vo/gpu/wayland] Registered interface wp_fifo_manager_v1 at version 1
+[   0.037][v][vo/gpu/wayland] Registered interface wp_color_manager_v1 at version 1
+[   0.037][v][vo/gpu/wayland] Registered interface zwp_linux_dmabuf_v1 at version 4
+[   0.037][v][vo/gpu/wayland] Registered interface wl_output at version 4
+[   0.037][v][vo/gpu/wayland] Compositor doesn't support the wp_color_representation_surface_v1 protocol!
+[   0.038][v][vo/gpu/wayland] Compositor supports parametric image description creator.
+[   0.038][v][vo/gpu/wayland] Compositor supports setting mastering display primaries.
+[   0.038][d][vo/gpu/wayland] Querying available drm format and modifier pairs from tranche on device '57984'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB4H(020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB4H(020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB4H(020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB4H(0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB4H(0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB4H(0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB4H(0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB4H(0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB4H(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB4H(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB4H(020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB4H(020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB4H(020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB4H(0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB4H(0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB4H(0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB4H(0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB4H(0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB4H(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB4H(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB48(020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB48(020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB48(020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB48(0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB48(0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB48(0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB48(0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB48(0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB48(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB48(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB48(020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB48(020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB48(020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB48(0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB48(0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB48(0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB48(0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB48(0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB48(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB48(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR30(020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR30(020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR30(0200000440517901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR30(020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR30(0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR30(0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR30(0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR30(0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR30(0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR30(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR30(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XR30(020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XR30(020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XR30(0200000440517901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XR30(020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XR30(0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XR30(0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XR30(0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XR30(0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XR30(0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XR30(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XR30(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB30(020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB30(020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB30(0200000440517901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB30(020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB30(0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB30(0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB30(0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB30(0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB30(0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB30(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB30(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB30(020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB30(020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB30(0200000440517901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB30(020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB30(0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB30(0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB30(0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB30(0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB30(0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB30(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB30(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR24(020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR24(020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR24(0200000440517901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR24(020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR24(0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR24(0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR24(0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR24(0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR24(0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR24(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR24(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB24(020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB24(020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB24(0200000440517901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB24(020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB24(0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB24(0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB24(0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB24(0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB24(0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB24(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB24(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XR24(020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XR24(020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XR24(0200000440517901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XR24(020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XR24(0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XR24(0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XR24(0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XR24(0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XR24(0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XR24(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XR24(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB24(020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB24(020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB24(0200000440517901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB24(020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB24(0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB24(0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB24(0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB24(0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB24(0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB24(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XB24(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR15(020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR15(020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR15(020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR15(0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR15(0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR15(0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR15(0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR15(0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR15(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR15(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB15(020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB15(020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB15(020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB15(0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB15(0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB15(0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB15(0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB15(0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB15(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB15(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR12(020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR12(020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR12(020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR12(0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR12(0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR12(0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR12(0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR12(0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR12(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AR12(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB12(020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB12(020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB12(020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB12(0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB12(0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB12(0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB12(0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB12(0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB12(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB12(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'RG16(020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'RG16(020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'RG16(020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'RG16(0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'RG16(0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'RG16(0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'RG16(0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'RG16(0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'RG16(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'RG16(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R8  (020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R8  (020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R8  (020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R8  (0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R8  (0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R8  (0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R8  (0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R8  (0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R8  (0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R8  (00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R16 (020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R16 (020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R16 (020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R16 (0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R16 (0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R16 (0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R16 (0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R16 (0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R16 (0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R16 (00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR88(020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR88(020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR88(020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR88(0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR88(0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR88(0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR88(0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR88(0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR88(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR88(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR32(020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR32(020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR32(0200000440517901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR32(020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR32(0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR32(0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR32(0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR32(0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR32(0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR32(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR32(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R  H(020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R  H(020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R  H(020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R  H(0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R  H(0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R  H(0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R  H(0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R  H(0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R  H(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R  H(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R  F(020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R  F(020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R  F(0200000440517901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R  F(020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R  F(0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R  F(0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R  F(0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R  F(0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R  F(0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R  F(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'R  F(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR H(020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR H(020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR H(0200000440517901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR H(020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR H(0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR H(0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR H(0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR H(0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR H(0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR H(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR H(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR F(020000044051ba01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR F(020000044051b901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR F(020000044051b601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR F(0200000000401a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR F(0200000000401901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR F(0200000000401601)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR F(0200000000000a01)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR F(0200000000000901)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR F(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'GR F(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB8F(0000000000000000)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AB8F(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'YUV9(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'YU11(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'YU12(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'YU16(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'YU24(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'YVU9(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'YV11(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'YV12(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'YV16(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'YV24(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'S010(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'S210(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'S410(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'S012(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'S212(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'S412(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'S016(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'S216(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'S416(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'NV12(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'NV21(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'P010(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'P012(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'P016(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'P030(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'NV16(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'NV61(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'NV24(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'NV42(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'AYUV(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'XYUV(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'Y410(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'Y412(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'Y416(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'YUYV(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'YVYU(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'UYVY(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'VYUY(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'Y210(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'Y212(00ffffffffffffff)'
+[   0.038][d][vo/gpu/wayland] Compositor supports drm format: 'Y216(00ffffffffffffff)'
+[   0.038][v][vo/gpu/wayland] Registered output California Institute of Technology 0x1601 (eDP-1) (0x3f):
+[   0.038][v][vo/gpu/wayland] 	x: 0px, y: 0px
+[   0.038][v][vo/gpu/wayland] 	w: 2560px (340mm), h: 1600px (220mm)
+[   0.038][v][vo/gpu/wayland] 	transform: 0
+[   0.038][v][vo/gpu/wayland] 	scale: 1.000000
+[   0.038][v][vo/gpu/wayland] 	Hz: 120.005000
+[   0.038][v][vo/gpu/wayland] Preferred surface feedback received:
+[   0.038][v][vo/gpu/wayland] transfer: gamma2.2, primaries: auto
+[   0.038][v][vo/gpu/wayland] transfer: min_luma=0.200000, max_luma=80.000000, ref_luma=80.000000
+[   0.038][v][vo/gpu/wayland] target: min_luma=0.000000, max_luma=0.000000, max_cll=0.000000, max_fall=0.000000
+[   0.038][v][vo/gpu/wayland]         raw prims: red.x=0.000000,   red.y=0.000000,
+[   0.038][v][vo/gpu/wayland]                    green.x=0.000000, green.y=0.000000,
+[   0.038][v][vo/gpu/wayland]                    blue.x=0.000000,  blue.y=0.000000,
+[   0.038][v][vo/gpu/wayland]                    white.x=0.000000, white.y=0.000000
+[   0.038][v][vo/gpu/wayland] Setting preferred transfer to PQ for HDR output.
+[   0.038][v][vo/gpu/wayland] Enabling server decorations
+[   0.038][v][vo/gpu/wayland] Enabling server decorations
+[   0.098][v][vo/gpu/opengl] EGL_VERSION=1.5
+[   0.098][v][vo/gpu/opengl] EGL_VENDOR=Mesa Project
+[   0.098][v][vo/gpu/opengl] EGL_CLIENT_APIS=OpenGL OpenGL_ES 
+[   0.098][v][vo/gpu/opengl] Trying to create Desktop OpenGL context.
+[   0.098][d][vo/gpu/opengl] Chosen EGLConfig:
+[   0.098][d][vo/gpu/opengl]   EGL_CONFIG_ID=0x11
+[   0.098][d][vo/gpu/opengl]   EGL_RED_SIZE=0xa
+[   0.098][d][vo/gpu/opengl]   EGL_GREEN_SIZE=0xa
+[   0.098][d][vo/gpu/opengl]   EGL_BLUE_SIZE=0xa
+[   0.098][d][vo/gpu/opengl]   EGL_ALPHA_SIZE=0x0
+[   0.098][d][vo/gpu/opengl]   EGL_COLOR_BUFFER_TYPE=0x308e
+[   0.098][d][vo/gpu/opengl]   EGL_CONFIG_CAVEAT=0x3038
+[   0.098][d][vo/gpu/opengl]   EGL_CONFORMANT=0x4d
+[   0.098][d][vo/gpu/opengl]   EGL_NATIVE_VISUAL_ID=0x30335258
+[   0.101][v][vo/gpu/wayland] GL_VERSION='4.6 (Core Profile) Mesa 25.3.4-arch1.1'
+[   0.101][v][vo/gpu/wayland] Detected desktop OpenGL 4.6.
+[   0.101][v][vo/gpu/wayland] GL_VENDOR='AMD'
+[   0.101][v][vo/gpu/wayland] GL_RENDERER='AMD Radeon Graphics (radeonsi, renoir, ACO, DRM 3.64, 6.18.7-arch1-1)'
+[   0.101][v][vo/gpu/wayland] GL_SHADING_LANGUAGE_VERSION='4.60'
+[   0.101][d][vo/gpu/wayland] Combined OpenGL extensions string:
+[   0.101][d][vo/gpu/wayland] EGL_ANDROID_blob_cache EGL_ANDROID_native_fence_sync EGL_EXT_buffer_age EGL_EXT_config_select_group EGL_EXT_create_context_robustness EGL_EXT_image_dma_buf_import EGL_EXT_image_dma_buf_import_modifiers EGL_EXT_present_opaque EGL_EXT_protected_surface EGL_EXT_query_reset_notification_strategy EGL_EXT_surface_compression EGL_EXT_swap_buffers_with_damage EGL_IMG_context_priority EGL_KHR_cl_event2 EGL_KHR_config_attribs EGL_KHR_context_flush_control EGL_KHR_create_context EGL_KHR_create_context_no_error EGL_KHR_fence_sync EGL_KHR_get_all_proc_addresses EGL_KHR_gl_colorspace EGL_KHR_gl_renderbuffer_image EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_image_base EGL_KHR_no_config_context EGL_KHR_reusable_sync EGL_KHR_surfaceless_context EGL_KHR_swap_buffers_with_damage EGL_EXT_pixel_format_float EGL_KHR_wait_sync EGL_MESA_configless_context EGL_MESA_gl_interop EGL_MESA_image_dma_buf_export EGL_MESA_query_driver EGL_MESA_x11_native_visual_id  GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_framebuffer_multisample_advanced GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+[   0.101][v][vo/gpu/wayland] Loaded extension GL_KHR_debug.
+[   0.103][d][vo/gpu/opengl] Texture formats:
+[   0.103][d][vo/gpu/opengl]   NAME       COMP*TYPE SIZE           DEPTH PER COMP.
+[   0.103][d][vo/gpu/opengl]   r8         1*unorm   1B    LF CR ST {8}
+[   0.103][d][vo/gpu/opengl]   rg8        2*unorm   2B    LF CR ST {8 8}
+[   0.103][d][vo/gpu/opengl]   rgb8       3*unorm   3B    LF CR ST {8 8 8}
+[   0.103][d][vo/gpu/opengl]   rgba8      4*unorm   4B    LF CR ST {8 8 8 8}
+[   0.103][d][vo/gpu/opengl]   r16        1*unorm   2B    LF CR ST {16}
+[   0.103][d][vo/gpu/opengl]   rg16       2*unorm   4B    LF CR ST {16 16}
+[   0.103][d][vo/gpu/opengl]   rgb16      3*unorm   6B    LF CR ST {16 16 16}
+[   0.103][d][vo/gpu/opengl]   rgba16     4*unorm   8B    LF CR ST {16 16 16 16}
+[   0.103][d][vo/gpu/opengl]   r8ui       1*uint    1B       CR ST {8}
+[   0.103][d][vo/gpu/opengl]   rg8ui      2*uint    2B       CR ST {8 8}
+[   0.103][d][vo/gpu/opengl]   rgb8ui     3*uint    3B          ST {8 8 8}
+[   0.103][d][vo/gpu/opengl]   rgba8ui    4*uint    4B       CR ST {8 8 8 8}
+[   0.103][d][vo/gpu/opengl]   r16ui      1*uint    2B       CR ST {16}
+[   0.103][d][vo/gpu/opengl]   rg16ui     2*uint    4B       CR ST {16 16}
+[   0.103][d][vo/gpu/opengl]   rgb16ui    3*uint    6B          ST {16 16 16}
+[   0.103][d][vo/gpu/opengl]   rgba16ui   4*uint    8B       CR ST {16 16 16 16}
+[   0.103][d][vo/gpu/opengl]   r16f       1*float   4B    LF CR ST {32/16}
+[   0.103][d][vo/gpu/opengl]   rg16f      2*float   8B    LF CR ST {32/16 32/16}
+[   0.103][d][vo/gpu/opengl]   rgb16f     3*float  12B    LF CR ST {32/16 32/16 32/16}
+[   0.103][d][vo/gpu/opengl]   rgba16f    4*float  16B    LF CR ST {32/16 32/16 32/16 32/16}
+[   0.103][d][vo/gpu/opengl]   r32f       1*float   4B    LF CR ST {32}
+[   0.103][d][vo/gpu/opengl]   rg32f      2*float   8B    LF CR ST {32 32}
+[   0.103][d][vo/gpu/opengl]   rgb32f     3*float  12B    LF CR ST {32 32 32}
+[   0.103][d][vo/gpu/opengl]   rgba32f    4*float  16B    LF CR ST {32 32 32 32}
+[   0.103][d][vo/gpu/opengl]   rgb10_a2   4*unorm   4B    LF CR ST {0/10 0/10 0/10 0/2}
+[   0.103][d][vo/gpu/opengl]   rgba12     4*unorm   8B    LF CR ST {16 16 16 16}
+[   0.103][d][vo/gpu/opengl]   rgb10      3*unorm   6B    LF CR ST {16/10 16/10 16/10}
+[   0.103][d][vo/gpu/opengl]   rgb565     3*unorm   2B    LF    ST {0/8 0/8 0/8}
+[   0.103][d][vo/gpu/opengl]  LA = LUMINANCE_ALPHA hack format
+[   0.103][d][vo/gpu/opengl]  LF = linear filterable
+[   0.103][d][vo/gpu/opengl]  CR = can be used for render targets
+[   0.103][d][vo/gpu/opengl]  ST = can be used for storable images
+[   0.103][d][vo/gpu/opengl] Image formats:
+[   0.103][d][vo/gpu/opengl]   yuv444p => 3 planes 1x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.103][d][vo/gpu/opengl]   yuv420p => 3 planes 2x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.103][d][vo/gpu/opengl]   gray => 1 planes 1x1 8/0 [r8] (r) [unorm]
+[   0.103][d][vo/gpu/opengl]   gray16 => 1 planes 1x1 16/0 [r16] (r) [unorm]
+[   0.103][d][vo/gpu/opengl]   uyvy422
+[   0.103][d][vo/gpu/opengl]   nv12 => 2 planes 2x2 8/0 [r8/rg8] (r/gb) [unorm]
+[   0.103][d][vo/gpu/opengl]   p010 => 2 planes 2x2 16/6 [r16/rg16] (r/gb) [unorm]
+[   0.103][d][vo/gpu/opengl]   argb => 1 planes 1x1 8/0 [rgba8] (argb) [unorm]
+[   0.103][d][vo/gpu/opengl]   bgra => 1 planes 1x1 8/0 [rgba8] (bgra) [unorm]
+[   0.103][d][vo/gpu/opengl]   abgr => 1 planes 1x1 8/0 [rgba8] (abgr) [unorm]
+[   0.103][d][vo/gpu/opengl]   rgba => 1 planes 1x1 8/0 [rgba8] (rgba) [unorm]
+[   0.103][d][vo/gpu/opengl]   bgr24 => 1 planes 1x1 8/0 [rgb8] (bgr) [unorm]
+[   0.103][d][vo/gpu/opengl]   rgb24 => 1 planes 1x1 8/0 [rgb8] (rgb) [unorm]
+[   0.103][d][vo/gpu/opengl]   0rgb => 1 planes 1x1 8/0 [rgba8] (_rgb) [unorm]
+[   0.103][d][vo/gpu/opengl]   bgr0 => 1 planes 1x1 8/0 [rgba8] (bgr) [unorm]
+[   0.103][d][vo/gpu/opengl]   0bgr => 1 planes 1x1 8/0 [rgba8] (_bgr) [unorm]
+[   0.103][d][vo/gpu/opengl]   rgb0 => 1 planes 1x1 8/0 [rgba8] (rgb) [unorm]
+[   0.103][d][vo/gpu/opengl]   rgba64 => 1 planes 1x1 16/0 [rgba16] (rgba) [unorm]
+[   0.103][d][vo/gpu/opengl]   rgb565 => 1 planes 1x1 0/0 [rgb565] (rgb) [unknown]
+[   0.103][d][vo/gpu/opengl]   pal8
+[   0.103][d][vo/gpu/opengl]   vdpau
+[   0.103][d][vo/gpu/opengl]   d3d11
+[   0.103][d][vo/gpu/opengl]   dxva2_vld
+[   0.103][d][vo/gpu/opengl]   mmal
+[   0.103][d][vo/gpu/opengl]   mediacodec
+[   0.103][d][vo/gpu/opengl]   cuda
+[   0.103][d][vo/gpu/opengl]   yap8 => 2 planes 1x1 8/0 [r8/r8] (r/a) [unorm]
+[   0.103][d][vo/gpu/opengl]   yap16 => 2 planes 1x1 16/0 [r16/r16] (r/a) [unorm]
+[   0.103][d][vo/gpu/opengl]   grayaf32 => 2 planes 1x1 32/0 [r16f/r16f] (r/a) [float]
+[   0.103][d][vo/gpu/opengl]   yuv444pf => 3 planes 1x1 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.103][d][vo/gpu/opengl]   yuva444pf => 4 planes 1x1 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.103][d][vo/gpu/opengl]   yuv420pf => 3 planes 2x2 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.103][d][vo/gpu/opengl]   yuva420pf => 4 planes 2x2 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.103][d][vo/gpu/opengl]   yuv422pf => 3 planes 2x1 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.103][d][vo/gpu/opengl]   yuva422pf => 4 planes 2x1 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.103][d][vo/gpu/opengl]   yuv440pf => 3 planes 1x2 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.103][d][vo/gpu/opengl]   yuva440pf => 4 planes 1x2 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.103][d][vo/gpu/opengl]   yuv410pf => 3 planes 4x4 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.103][d][vo/gpu/opengl]   yuva410pf => 4 planes 4x4 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.103][d][vo/gpu/opengl]   yuv411pf => 3 planes 4x1 32/0 [r16f/r16f/r16f] (r/g/b) [float]
+[   0.103][d][vo/gpu/opengl]   yuva411pf => 4 planes 4x1 32/0 [r16f/r16f/r16f/r16f] (r/g/b/a) [float]
+[   0.103][d][vo/gpu/opengl]   rgb30 => 1 planes 1x1 10/0 [rgb10_a2] (bgr) [unknown]
+[   0.103][d][vo/gpu/opengl]   y1 => 1 planes 1x1 8/-7 [r8] (r) [unorm]
+[   0.103][d][vo/gpu/opengl]   gbrp1 => 3 planes 1x1 8/-7 [r8/r8/r8] (g/b/r) [unorm]
+[   0.103][d][vo/gpu/opengl]   gbrp2 => 3 planes 1x1 8/-6 [r8/r8/r8] (g/b/r) [unorm]
+[   0.103][d][vo/gpu/opengl]   gbrp3 => 3 planes 1x1 8/-5 [r8/r8/r8] (g/b/r) [unorm]
+[   0.103][d][vo/gpu/opengl]   gbrp4 => 3 planes 1x1 8/-4 [r8/r8/r8] (g/b/r) [unorm]
+[   0.103][d][vo/gpu/opengl]   gbrp5 => 3 planes 1x1 8/-3 [r8/r8/r8] (g/b/r) [unorm]
+[   0.103][d][vo/gpu/opengl]   gbrp6 => 3 planes 1x1 8/-2 [r8/r8/r8] (g/b/r) [unorm]
+[   0.103][d][vo/gpu/opengl]   vdpau_output
+[   0.103][d][vo/gpu/opengl]   vaapi
+[   0.103][d][vo/gpu/opengl]   videotoolbox
+[   0.103][d][vo/gpu/opengl]   vulkan
+[   0.103][d][vo/gpu/opengl]   drm_prime
+[   0.103][d][vo/gpu/opengl]   yuyv422
+[   0.103][d][vo/gpu/opengl]   yuv422p => 3 planes 2x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.103][d][vo/gpu/opengl]   yuv410p => 3 planes 4x4 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.103][d][vo/gpu/opengl]   yuv411p => 3 planes 4x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.103][d][vo/gpu/opengl]   monow
+[   0.103][d][vo/gpu/opengl]   monob
+[   0.103][d][vo/gpu/opengl]   yuvj422p => 3 planes 2x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.103][d][vo/gpu/opengl]   uyyvyy411
+[   0.103][d][vo/gpu/opengl]   bgr8
+[   0.103][d][vo/gpu/opengl]   bgr4
+[   0.103][d][vo/gpu/opengl]   bgr4_byte
+[   0.103][d][vo/gpu/opengl]   rgb8
+[   0.103][d][vo/gpu/opengl]   rgb4
+[   0.103][d][vo/gpu/opengl]   rgb4_byte
+[   0.103][d][vo/gpu/opengl]   nv21 => 2 planes 2x2 8/0 [r8/rg8] (r/bg) [unorm]
+[   0.103][d][vo/gpu/opengl]   gray16be
+[   0.103][d][vo/gpu/opengl]   yuv440p => 3 planes 1x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.103][d][vo/gpu/opengl]   yuvj440p => 3 planes 1x2 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.103][d][vo/gpu/opengl]   yuva420p => 4 planes 2x2 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   0.103][d][vo/gpu/opengl]   rgb48be
+[   0.103][d][vo/gpu/opengl]   rgb48 => 1 planes 1x1 16/0 [rgb16] (rgb) [unorm]
+[   0.103][d][vo/gpu/opengl]   rgb565be
+[   0.103][d][vo/gpu/opengl]   rgb555be
+[   0.103][d][vo/gpu/opengl]   rgb555
+[   0.103][d][vo/gpu/opengl]   bgr565be
+[   0.103][d][vo/gpu/opengl]   bgr565
+[   0.103][d][vo/gpu/opengl]   bgr555be
+[   0.103][d][vo/gpu/opengl]   bgr555
+[   0.103][d][vo/gpu/opengl]   yuv420p16 => 3 planes 2x2 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   0.103][d][vo/gpu/opengl]   yuv420p16be
+[   0.103][d][vo/gpu/opengl]   yuv422p16 => 3 planes 2x1 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   0.103][d][vo/gpu/opengl]   yuv422p16be
+[   0.103][d][vo/gpu/opengl]   yuv444p16 => 3 planes 1x1 16/0 [r16/r16/r16] (r/g/b) [unorm]
+[   0.103][d][vo/gpu/opengl]   yuv444p16be
+[   0.103][d][vo/gpu/opengl]   rgb444
+[   0.103][d][vo/gpu/opengl]   rgb444be
+[   0.103][d][vo/gpu/opengl]   bgr444
+[   0.103][d][vo/gpu/opengl]   bgr444be
+[   0.103][d][vo/gpu/opengl]   ya8 => 1 planes 1x1 8/0 [rg8] (ra) [unorm]
+[   0.104][d][vo/gpu/opengl]   bgr48be
+[   0.104][d][vo/gpu/opengl]   bgr48 => 1 planes 1x1 16/0 [rgb16] (bgr) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuv420p9be
+[   0.104][d][vo/gpu/opengl]   yuv420p9 => 3 planes 2x2 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuv420p10be
+[   0.104][d][vo/gpu/opengl]   yuv420p10 => 3 planes 2x2 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuv422p10be
+[   0.104][d][vo/gpu/opengl]   yuv422p10 => 3 planes 2x1 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuv444p9be
+[   0.104][d][vo/gpu/opengl]   yuv444p9 => 3 planes 1x1 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuv444p10be
+[   0.104][d][vo/gpu/opengl]   yuv444p10 => 3 planes 1x1 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuv422p9be
+[   0.104][d][vo/gpu/opengl]   yuv422p9 => 3 planes 2x1 16/-7 [r16/r16/r16] (r/g/b) [unorm]
+[   0.104][d][vo/gpu/opengl]   gbrp => 3 planes 1x1 8/0 [r8/r8/r8] (g/b/r) [unorm]
+[   0.104][d][vo/gpu/opengl]   gbrp9be
+[   0.104][d][vo/gpu/opengl]   gbrp9 => 3 planes 1x1 16/-7 [r16/r16/r16] (g/b/r) [unorm]
+[   0.104][d][vo/gpu/opengl]   gbrp10be
+[   0.104][d][vo/gpu/opengl]   gbrp10 => 3 planes 1x1 16/-6 [r16/r16/r16] (g/b/r) [unorm]
+[   0.104][d][vo/gpu/opengl]   gbrp16be
+[   0.104][d][vo/gpu/opengl]   gbrp16 => 3 planes 1x1 16/0 [r16/r16/r16] (g/b/r) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuva422p => 4 planes 2x1 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuva444p => 4 planes 1x1 8/0 [r8/r8/r8/r8] (r/g/b/a) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuva420p9be
+[   0.104][d][vo/gpu/opengl]   yuva420p9 => 4 planes 2x2 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuva422p9be
+[   0.104][d][vo/gpu/opengl]   yuva422p9 => 4 planes 2x1 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuva444p9be
+[   0.104][d][vo/gpu/opengl]   yuva444p9 => 4 planes 1x1 16/-7 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuva420p10be
+[   0.104][d][vo/gpu/opengl]   yuva420p10 => 4 planes 2x2 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuva422p10be
+[   0.104][d][vo/gpu/opengl]   yuva422p10 => 4 planes 2x1 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuva444p10be
+[   0.104][d][vo/gpu/opengl]   yuva444p10 => 4 planes 1x1 16/-6 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuva420p16be
+[   0.104][d][vo/gpu/opengl]   yuva420p16 => 4 planes 2x2 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuva422p16be
+[   0.104][d][vo/gpu/opengl]   yuva422p16 => 4 planes 2x1 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuva444p16be
+[   0.104][d][vo/gpu/opengl]   yuva444p16 => 4 planes 1x1 16/0 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.104][d][vo/gpu/opengl]   xyz12 => 1 planes 1x1 16/4 [rgb16] (rgb) [unorm]
+[   0.104][d][vo/gpu/opengl]   xyz12be
+[   0.104][d][vo/gpu/opengl]   nv16 => 2 planes 2x1 8/0 [r8/rg8] (r/gb) [unorm]
+[   0.104][d][vo/gpu/opengl]   nv20 => 2 planes 2x1 16/-6 [r16/rg16] (r/gb) [unorm]
+[   0.104][d][vo/gpu/opengl]   nv20be
+[   0.104][d][vo/gpu/opengl]   rgba64be
+[   0.104][d][vo/gpu/opengl]   bgra64be
+[   0.104][d][vo/gpu/opengl]   bgra64 => 1 planes 1x1 16/0 [rgba16] (bgra) [unorm]
+[   0.104][d][vo/gpu/opengl]   yvyu422
+[   0.104][d][vo/gpu/opengl]   ya16be
+[   0.104][d][vo/gpu/opengl]   ya16 => 1 planes 1x1 16/0 [rg16] (ra) [unorm]
+[   0.104][d][vo/gpu/opengl]   gbrap => 4 planes 1x1 8/0 [r8/r8/r8/r8] (g/b/r/a) [unorm]
+[   0.104][d][vo/gpu/opengl]   gbrap16be
+[   0.104][d][vo/gpu/opengl]   gbrap16 => 4 planes 1x1 16/0 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   0.104][d][vo/gpu/opengl]   qsv
+[   0.104][d][vo/gpu/opengl]   d3d11va_vld
+[   0.104][d][vo/gpu/opengl]   yuv420p12be
+[   0.104][d][vo/gpu/opengl]   yuv420p12 => 3 planes 2x2 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuv420p14be
+[   0.104][d][vo/gpu/opengl]   yuv420p14 => 3 planes 2x2 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuv422p12be
+[   0.104][d][vo/gpu/opengl]   yuv422p12 => 3 planes 2x1 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuv422p14be
+[   0.104][d][vo/gpu/opengl]   yuv422p14 => 3 planes 2x1 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuv444p12be
+[   0.104][d][vo/gpu/opengl]   yuv444p12 => 3 planes 1x1 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuv444p14be
+[   0.104][d][vo/gpu/opengl]   yuv444p14 => 3 planes 1x1 16/-2 [r16/r16/r16] (r/g/b) [unorm]
+[   0.104][d][vo/gpu/opengl]   gbrp12be
+[   0.104][d][vo/gpu/opengl]   gbrp12 => 3 planes 1x1 16/-4 [r16/r16/r16] (g/b/r) [unorm]
+[   0.104][d][vo/gpu/opengl]   gbrp14be
+[   0.104][d][vo/gpu/opengl]   gbrp14 => 3 planes 1x1 16/-2 [r16/r16/r16] (g/b/r) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuvj411p => 3 planes 4x1 8/0 [r8/r8/r8] (r/g/b) [unorm]
+[   0.104][d][vo/gpu/opengl]   bayer_bggr8
+[   0.104][d][vo/gpu/opengl]   bayer_rggb8
+[   0.104][d][vo/gpu/opengl]   bayer_gbrg8
+[   0.104][d][vo/gpu/opengl]   bayer_grbg8
+[   0.104][d][vo/gpu/opengl]   bayer_bggr16
+[   0.104][d][vo/gpu/opengl]   bayer_bggr16be
+[   0.104][d][vo/gpu/opengl]   bayer_rggb16
+[   0.104][d][vo/gpu/opengl]   bayer_rggb16be
+[   0.104][d][vo/gpu/opengl]   bayer_gbrg16
+[   0.104][d][vo/gpu/opengl]   bayer_gbrg16be
+[   0.104][d][vo/gpu/opengl]   bayer_grbg16
+[   0.104][d][vo/gpu/opengl]   bayer_grbg16be
+[   0.104][d][vo/gpu/opengl]   yuv440p10 => 3 planes 1x2 16/-6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuv440p10be
+[   0.104][d][vo/gpu/opengl]   yuv440p12 => 3 planes 1x2 16/-4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuv440p12be
+[   0.104][d][vo/gpu/opengl]   ayuv64 => 1 planes 1x1 16/0 [rgba16] (argb) [unorm]
+[   0.104][d][vo/gpu/opengl]   ayuv64be
+[   0.104][d][vo/gpu/opengl]   p010be
+[   0.104][d][vo/gpu/opengl]   gbrap12be
+[   0.104][d][vo/gpu/opengl]   gbrap12 => 4 planes 1x1 16/-4 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   0.104][d][vo/gpu/opengl]   gbrap10be
+[   0.104][d][vo/gpu/opengl]   gbrap10 => 4 planes 1x1 16/-6 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   0.104][d][vo/gpu/opengl]   gray12be
+[   0.104][d][vo/gpu/opengl]   gray12 => 1 planes 1x1 16/-4 [r16] (r) [unorm]
+[   0.104][d][vo/gpu/opengl]   gray10be
+[   0.104][d][vo/gpu/opengl]   gray10 => 1 planes 1x1 16/-6 [r16] (r) [unorm]
+[   0.104][d][vo/gpu/opengl]   p016 => 2 planes 2x2 16/0 [r16/rg16] (r/gb) [unorm]
+[   0.104][d][vo/gpu/opengl]   p016be
+[   0.104][d][vo/gpu/opengl]   gray9be
+[   0.104][d][vo/gpu/opengl]   gray9 => 1 planes 1x1 16/-7 [r16] (r) [unorm]
+[   0.104][d][vo/gpu/opengl]   gbrpf32be
+[   0.104][d][vo/gpu/opengl]   gbrpf32 => 3 planes 1x1 32/0 [r16f/r16f/r16f] (g/b/r) [float]
+[   0.104][d][vo/gpu/opengl]   gbrapf32be
+[   0.104][d][vo/gpu/opengl]   gbrapf32 => 4 planes 1x1 32/0 [r16f/r16f/r16f/r16f] (g/b/r/a) [float]
+[   0.104][d][vo/gpu/opengl]   opencl
+[   0.104][d][vo/gpu/opengl]   gray14be
+[   0.104][d][vo/gpu/opengl]   gray14 => 1 planes 1x1 16/-2 [r16] (r) [unorm]
+[   0.104][d][vo/gpu/opengl]   grayf32be
+[   0.104][d][vo/gpu/opengl]   grayf32 => 1 planes 1x1 32/0 [r16f] (r) [float]
+[   0.104][d][vo/gpu/opengl]   yuva422p12be
+[   0.104][d][vo/gpu/opengl]   yuva422p12 => 4 planes 2x1 16/-4 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuva444p12be
+[   0.104][d][vo/gpu/opengl]   yuva444p12 => 4 planes 1x1 16/-4 [r16/r16/r16/r16] (r/g/b/a) [unorm]
+[   0.104][d][vo/gpu/opengl]   nv24 => 2 planes 1x1 8/0 [r8/rg8] (r/gb) [unorm]
+[   0.104][d][vo/gpu/opengl]   nv42 => 2 planes 1x1 8/0 [r8/rg8] (r/bg) [unorm]
+[   0.104][d][vo/gpu/opengl]   y210be
+[   0.104][d][vo/gpu/opengl]   y210
+[   0.104][d][vo/gpu/opengl]   x2rgb10be
+[   0.104][d][vo/gpu/opengl]   x2bgr10
+[   0.104][d][vo/gpu/opengl]   x2bgr10be
+[   0.104][d][vo/gpu/opengl]   p210be
+[   0.104][d][vo/gpu/opengl]   p210 => 2 planes 2x1 16/6 [r16/rg16] (r/gb) [unorm]
+[   0.104][d][vo/gpu/opengl]   p410be
+[   0.104][d][vo/gpu/opengl]   p410 => 2 planes 1x1 16/6 [r16/rg16] (r/gb) [unorm]
+[   0.104][d][vo/gpu/opengl]   p216be
+[   0.104][d][vo/gpu/opengl]   p216 => 2 planes 2x1 16/0 [r16/rg16] (r/gb) [unorm]
+[   0.104][d][vo/gpu/opengl]   p416be
+[   0.104][d][vo/gpu/opengl]   p416 => 2 planes 1x1 16/0 [r16/rg16] (r/gb) [unorm]
+[   0.104][d][vo/gpu/opengl]   vuya => 1 planes 1x1 8/0 [rgba8] (bgra) [unorm]
+[   0.104][d][vo/gpu/opengl]   rgbaf16be
+[   0.104][d][vo/gpu/opengl]   rgbaf16
+[   0.104][d][vo/gpu/opengl]   vuyx => 1 planes 1x1 8/0 [rgba8] (bgr) [unorm]
+[   0.104][d][vo/gpu/opengl]   p012 => 2 planes 2x2 16/4 [r16/rg16] (r/gb) [unorm]
+[   0.104][d][vo/gpu/opengl]   p012be
+[   0.104][d][vo/gpu/opengl]   y212be
+[   0.104][d][vo/gpu/opengl]   y212
+[   0.104][d][vo/gpu/opengl]   xv30be
+[   0.104][d][vo/gpu/opengl]   xv30
+[   0.104][d][vo/gpu/opengl]   xv36be
+[   0.104][d][vo/gpu/opengl]   xv36 => 1 planes 1x1 16/4 [rgba16] (grb) [unorm]
+[   0.104][d][vo/gpu/opengl]   rgbf32be
+[   0.104][d][vo/gpu/opengl]   rgbf32
+[   0.104][d][vo/gpu/opengl]   rgbaf32be
+[   0.104][d][vo/gpu/opengl]   rgbaf32
+[   0.104][d][vo/gpu/opengl]   p212be
+[   0.104][d][vo/gpu/opengl]   p212 => 2 planes 2x1 16/4 [r16/rg16] (r/gb) [unorm]
+[   0.104][d][vo/gpu/opengl]   p412be
+[   0.104][d][vo/gpu/opengl]   p412 => 2 planes 1x1 16/4 [r16/rg16] (r/gb) [unorm]
+[   0.104][d][vo/gpu/opengl]   gbrap14be
+[   0.104][d][vo/gpu/opengl]   gbrap14 => 4 planes 1x1 16/-2 [r16/r16/r16/r16] (g/b/r/a) [unorm]
+[   0.104][d][vo/gpu/opengl]   d3d12
+[   0.104][d][vo/gpu/opengl]   ayuv => 1 planes 1x1 8/0 [rgba8] (argb) [unorm]
+[   0.104][d][vo/gpu/opengl]   uyva => 1 planes 1x1 8/0 [rgba8] (grba) [unorm]
+[   0.104][d][vo/gpu/opengl]   vyu444 => 1 planes 1x1 8/0 [rgb8] (brg) [unorm]
+[   0.104][d][vo/gpu/opengl]   v30xbe
+[   0.104][d][vo/gpu/opengl]   v30x
+[   0.104][d][vo/gpu/opengl]   rgbf16be
+[   0.104][d][vo/gpu/opengl]   rgbf16
+[   0.104][d][vo/gpu/opengl]   rgba128be
+[   0.104][d][vo/gpu/opengl]   rgba128
+[   0.104][d][vo/gpu/opengl]   rgb96be
+[   0.104][d][vo/gpu/opengl]   rgb96
+[   0.104][d][vo/gpu/opengl]   y216be
+[   0.104][d][vo/gpu/opengl]   y216
+[   0.104][d][vo/gpu/opengl]   xv48be
+[   0.104][d][vo/gpu/opengl]   xv48 => 1 planes 1x1 16/0 [rgba16] (grb) [unorm]
+[   0.104][d][vo/gpu/opengl]   gbrpf16be
+[   0.104][d][vo/gpu/opengl]   gbrpf16
+[   0.104][d][vo/gpu/opengl]   gbrapf16be
+[   0.104][d][vo/gpu/opengl]   gbrapf16
+[   0.104][d][vo/gpu/opengl]   grayf16be
+[   0.104][d][vo/gpu/opengl]   grayf16
+[   0.104][d][vo/gpu/opengl]   amf
+[   0.104][d][vo/gpu/opengl]   gray32be
+[   0.104][d][vo/gpu/opengl]   gray32
+[   0.104][d][vo/gpu/opengl]   yaf32be
+[   0.104][d][vo/gpu/opengl]   yaf32 => 1 planes 1x1 32/0 [rg16f] (ra) [float]
+[   0.104][d][vo/gpu/opengl]   yaf16be
+[   0.104][d][vo/gpu/opengl]   yaf16
+[   0.104][d][vo/gpu/opengl]   gbrap32be
+[   0.104][d][vo/gpu/opengl]   gbrap32
+[   0.104][d][vo/gpu/opengl]   yuv444p10msbbe
+[   0.104][d][vo/gpu/opengl]   yuv444p10msb => 3 planes 1x1 16/6 [r16/r16/r16] (r/g/b) [unorm]
+[   0.104][d][vo/gpu/opengl]   yuv444p12msbbe
+[   0.104][d][vo/gpu/opengl]   yuv444p12msb => 3 planes 1x1 16/4 [r16/r16/r16] (r/g/b) [unorm]
+[   0.104][d][vo/gpu/opengl]   gbrp10msbbe
+[   0.104][d][vo/gpu/opengl]   gbrp10msb => 3 planes 1x1 16/6 [r16/r16/r16] (g/b/r) [unorm]
+[   0.104][d][vo/gpu/opengl]   gbrp12msbbe
+[   0.104][d][vo/gpu/opengl]   gbrp12msb => 3 planes 1x1 16/4 [r16/r16/r16] (g/b/r) [unorm]
+[   0.104][d][vo/gpu/opengl]   ohcodec
+[   0.104][v][vo/gpu] Testing FBO format rgba16f
+[   0.104][d][vo/gpu] Resizing texture: 16x16
+[   0.104][v][vo/gpu] Using FBO format rgba16f.
+[   0.104][d][global] cache path: '' -> '/home/Gnana/.cache/mpv'
+[   0.105][v][vo/gpu] Assuming 120.005000 FPS for display sync.
+[   0.105][v][vd] Container reported FPS: 24.000000
+[   0.105][v][vd] Codec list:
+[   0.105][v][vd]     hevc - HEVC (High Efficiency Video Coding)
+[   0.105][v][vd]     hevc_qsv (hevc) - HEVC video (Intel Quick Sync Video acceleration)
+[   0.105][v][vd]     hevc_v4l2m2m (hevc) - V4L2 mem2mem HEVC decoder wrapper
+[   0.105][v][vd]     hevc_amf (hevc) - HEVC AMD AMF video decoder
+[   0.105][v][vd]     hevc_cuvid (hevc) - Nvidia CUVID HEVC decoder
+[   0.105][v][vd] Opening decoder hevc
+[   0.106][v][vd] Looking at hwdec hevc-vaapi...
+[   0.106][v][vo/gpu] Loading hwdec drivers for format: 'vaapi'
+[   0.106][v][vo/gpu] Loading hwdec driver 'vaapi'
+[   0.106][v][vo/gpu/vaapi] Using EGL dmabuf interop via GL_EXT_EGL_image_storage
+[   0.106][v][vo/gpu/vaapi] Trying to open a x11 VA display...
+[   0.106][v][vo/gpu/vaapi] Trying to open a wayland VA display...
+[   0.107][v][vo/gpu/vaapi/vaapi] libva: VA-API version 1.22.0
+[   0.107][v][vo/gpu/vaapi/vaapi] libva: Trying to open /usr/lib/dri/radeonsi_drv_video.so
+[   0.107][v][vo/gpu/vaapi/vaapi] libva: Found init function __vaDriverInit_1_22
+[   0.111][v][vo/gpu/vaapi/vaapi] libva: va_openDriver() returns 0
+[   0.112][v][vo/gpu/vaapi/vaapi] Initialized VAAPI: version 1.22
+[   0.112][d][ffmpeg] VAAPI: VAAPI driver: Mesa Gallium driver 25.3.4-arch1.1 for AMD Radeon Graphics (radeonsi, renoir, ACO, DRM 3.64, 6.18.7-arch1-1).
+[   0.112][d][ffmpeg] VAAPI: Driver not found in known nonstandard list, using standard behaviour.
+[   0.112][v][vo/gpu/vaapi] Going to probe surface formats (may log bogus errors)...
+[   0.113][d][vo/gpu/vaapi] Failed to create mapper
+[   0.113][d][vo/gpu/vaapi] Unsupported format: yuyv422
+[   0.113][d][vo/gpu/vaapi] Failed to create mapper
+[   0.113][d][vo/gpu/vaapi] Unsupported format: uyvy422
+[   0.115][d][vo/gpu/vaapi] Supported formats:
+[   0.115][d][vo/gpu/vaapi]  nv12
+[   0.115][d][vo/gpu/vaapi]  p010
+[   0.115][d][vo/gpu/vaapi]  p012
+[   0.115][d][vo/gpu/vaapi]  yuv420p
+[   0.115][d][vo/gpu/vaapi]  gray
+[   0.115][d][vo/gpu/vaapi]  yuv444p
+[   0.115][d][vo/gpu/vaapi]  yuv440p
+[   0.115][d][vo/gpu/vaapi]  bgra
+[   0.115][d][vo/gpu/vaapi]  rgba
+[   0.115][d][vo/gpu/vaapi]  argb
+[   0.115][d][vo/gpu/vaapi]  bgr0
+[   0.115][d][vo/gpu/vaapi]  rgb0
+[   0.115][d][vo/gpu/vaapi]  rgb30
+[   0.115][v][vo/gpu/vaapi] Done probing surface formats.
+[   0.115][v][vd] Trying hardware decoding via hevc-vaapi.
+[   0.115][v][vd] Requesting 4 threads for decoding.
+[   0.117][v][vd] Selected decoder: hevc - HEVC (High Efficiency Video Coding)
+[   0.117][v][vf] User filter list:
+[   0.117][v][vf]   (empty)
+[   0.117][v][ad] Codec list:
+[   0.117][v][ad]     ac3 - ATSC A/52A (AC-3)
+[   0.117][v][ad]     ac3_fixed (ac3) - ATSC A/52A (AC-3)
+[   0.117][v][ad] Opening decoder ac3
+[   0.118][v][ad] Requesting 1 threads for decoding.
+[   0.118][v][ad] Selected decoder: ac3 - ATSC A/52A (AC-3)
+[   0.118][v][af] User filter list:
+[   0.118][v][af]   (empty)
+[   0.118][v][sub/ass] Using subtitle decoder srt
+[   0.118][d][global] config path: 'fonts' -/-> '/home/Gnana/.config/mpv/fonts'
+[   0.118][d][global] config path: 'fonts' -/-> '/home/Gnana/.mpv/fonts'
+[   0.118][d][global] config path: 'fonts' -/-> '/etc/mpv/fonts'
+[   0.118][d][sub/ass] ASS library version: 0x1704000 (runtime 0x1704000)
+[   0.118][v][sub/ass] libass API version: 0x1704000
+[   0.118][v][sub/ass] libass source: commit: 0.17.4-0-gbbb3c7f1570a4a021e52683f3fbdf74fe492ae84
+[   0.119][v][sub/ass] Shaper: FriBidi 1.0.16 (SIMPLE) HarfBuzz-ng 12.3.2 (COMPLEX)
+[   0.119][d][global] config path: 'subfont.ttf' -/-> '/home/Gnana/.config/mpv/subfont.ttf'
+[   0.119][d][global] config path: 'subfont.ttf' -/-> '/home/Gnana/.mpv/subfont.ttf'
+[   0.119][d][global] config path: 'subfont.ttf' -/-> '/etc/mpv/subfont.ttf'
+[   0.119][d][global] config path: 'fonts.conf' -/-> '/home/Gnana/.config/mpv/fonts.conf'
+[   0.119][d][global] config path: 'fonts.conf' -/-> '/home/Gnana/.mpv/fonts.conf'
+[   0.119][d][global] config path: 'fonts.conf' -/-> '/etc/mpv/fonts.conf'
+[   0.119][v][sub/ass] Setting up fonts...
+[   0.135][v][sub/ass] Using font provider fontconfig
+[   0.135][v][sub/ass] Done.
+[   0.135][v][cplayer] Starting playback...
+[   0.135][v][af] [in] 48000Hz stereo 2ch floatp
+[   0.135][v][af] [userspeed] 48000Hz stereo 2ch floatp
+[   0.135][v][af] [userspeed] (disabled)
+[   0.135][v][af] [convert] 48000Hz stereo 2ch floatp
+[   0.135][v][vd] Pixel formats supported by decoder: vaapi vulkan vdpau cuda yuv420p10le
+[   0.135][v][vd] Codec profile: Main 10 (0x2)
+[   0.136][v][vd] Requesting pixfmt 'vaapi' from decoder.
+[   0.139][i][vd] Using hardware decoding (vaapi).
+[   0.139][v][vd] Decoder format: 1280x534 vaapi[p010] bt.709/bt.709/bt.1886/limited/auto CL=mpeg2/4/h264 crop=1280x534+0+0 A=none
+[   0.139][v][vd] Using container aspect ratio.
+[   0.139][v][vf] [in] 1280x534 vaapi[p010] bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1280x534+0+0 A=none
+[   0.139][v][vf] [userdeint] 1280x534 vaapi[p010] bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1280x534+0+0 A=none
+[   0.139][v][vf] [userdeint] (disabled)
+[   0.139][v][vf] [autovflip] 1280x534 vaapi[p010] bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1280x534+0+0 A=none
+[   0.139][v][vf] [autovflip] (disabled)
+[   0.139][v][vf] [autorotate] 1280x534 vaapi[p010] bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1280x534+0+0 A=none
+[   0.139][v][vf] [autorotate] (disabled)
+[   0.139][v][vf] [convert] 1280x534 vaapi[p010] bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1280x534+0+0 A=none
+[   0.139][v][vo/gpu] Loading hwdec drivers for format: 'vaapi'
+[   0.142][d][hwupload] looking at format vaapi/nv12
+[   0.142][d][hwupload]   supports: nv12 yuv420p p010 p012 gray uyvy422 yuyv422 yuv440p yuv444p rgba bgra rgb0 bgr0 argb rgb30
+[   0.142][d][hwupload] looking at format vaapi/p010
+[   0.142][d][hwupload]   supports: nv12 yuv420p p010 p012 gray uyvy422 yuyv422 yuv440p yuv444p rgba bgra rgb0 bgr0 argb rgb30
+[   0.142][d][hwupload] looking at format vaapi/p012
+[   0.142][d][hwupload]   supports: nv12 yuv420p p010 p012 gray uyvy422 yuyv422 yuv440p yuv444p rgba bgra rgb0 bgr0 argb rgb30
+[   0.142][d][hwupload] looking at format vaapi/yuv420p
+[   0.142][d][hwupload]   supports: nv12 yuv420p p010 p012 gray uyvy422 yuyv422 yuv440p yuv444p rgba bgra rgb0 bgr0 argb rgb30
+[   0.142][d][hwupload] looking at format vaapi/yuyv422
+[   0.142][d][hwupload]   not supported by VO
+[   0.142][d][hwupload] looking at format vaapi/uyvy422
+[   0.142][d][hwupload]   not supported by VO
+[   0.142][d][hwupload] looking at format vaapi/gray
+[   0.142][d][hwupload]   supports: nv12 yuv420p p010 p012 gray uyvy422 yuyv422 yuv440p yuv444p rgba bgra rgb0 bgr0 argb rgb30
+[   0.142][d][hwupload] looking at format vaapi/yuv444p
+[   0.142][d][hwupload]   supports: nv12 yuv420p p010 p012 gray uyvy422 yuyv422 yuv440p yuv444p rgba bgra rgb0 bgr0 argb rgb30
+[   0.142][d][hwupload] looking at format vaapi/yuv440p
+[   0.142][d][hwupload]   supports: nv12 yuv420p p010 p012 gray uyvy422 yuyv422 yuv440p yuv444p rgba bgra rgb0 bgr0 argb rgb30
+[   0.142][d][hwupload] looking at format vaapi/bgra
+[   0.142][d][hwupload]   supports: nv12 yuv420p p010 p012 gray uyvy422 yuyv422 yuv440p yuv444p rgba bgra rgb0 bgr0 argb rgb30
+[   0.142][d][hwupload] looking at format vaapi/rgba
+[   0.142][d][hwupload]   supports: nv12 yuv420p p010 p012 gray uyvy422 yuyv422 yuv440p yuv444p rgba bgra rgb0 bgr0 argb rgb30
+[   0.142][d][hwupload] looking at format vaapi/argb
+[   0.142][d][hwupload]   supports: nv12 yuv420p p010 p012 gray uyvy422 yuyv422 yuv440p yuv444p rgba bgra rgb0 bgr0 argb rgb30
+[   0.142][d][hwupload] looking at format vaapi/bgr0
+[   0.142][d][hwupload]   supports: nv12 yuv420p p010 p012 gray uyvy422 yuyv422 yuv440p yuv444p rgba bgra rgb0 bgr0 argb rgb30
+[   0.142][d][hwupload] looking at format vaapi/rgb0
+[   0.142][d][hwupload]   supports: nv12 yuv420p p010 p012 gray uyvy422 yuyv422 yuv440p yuv444p rgba bgra rgb0 bgr0 argb rgb30
+[   0.142][d][hwupload] looking at format vaapi/rgb30
+[   0.142][d][hwupload]   supports: nv12 yuv420p p010 p012 gray uyvy422 yuyv422 yuv440p yuv444p rgba bgra rgb0 bgr0 argb rgb30
+[   0.145][v][vf] [out] 1280x534 vaapi[p010] bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1280x534+0+0 A=none
+[   0.145][d][cplayer] Run command: define-section, flags=64, args=[name="input_osc", contents="", flags="default"]
+[   0.145][d][cplayer] Run command: enable-section, flags=64, args=[name="input_osc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.145][d][global] config path: 'fonts' -/-> '/home/Gnana/.config/mpv/fonts'
+[   0.145][d][global] config path: 'fonts' -/-> '/home/Gnana/.mpv/fonts'
+[   0.145][d][global] config path: 'fonts' -/-> '/etc/mpv/fonts'
+[   0.145][d][osd/libass] ASS library version: 0x1704000 (runtime 0x1704000)
+[   0.145][v][osd/libass] libass API version: 0x1704000
+[   0.145][v][osd/libass] libass source: commit: 0.17.4-0-gbbb3c7f1570a4a021e52683f3fbdf74fe492ae84
+[   0.145][v][osd/libass] Shaper: FriBidi 1.0.16 (SIMPLE) HarfBuzz-ng 12.3.2 (COMPLEX)
+[   0.145][d][global] config path: 'subfont.ttf' -/-> '/home/Gnana/.config/mpv/subfont.ttf'
+[   0.145][d][global] config path: 'subfont.ttf' -/-> '/home/Gnana/.mpv/subfont.ttf'
+[   0.145][d][global] config path: 'subfont.ttf' -/-> '/etc/mpv/subfont.ttf'
+[   0.145][d][global] config path: 'fonts.conf' -/-> '/home/Gnana/.config/mpv/fonts.conf'
+[   0.145][d][global] config path: 'fonts.conf' -/-> '/home/Gnana/.mpv/fonts.conf'
+[   0.145][d][global] config path: 'fonts.conf' -/-> '/etc/mpv/fonts.conf'
+[   0.145][v][osd/libass] Setting up fonts...
+[   0.163][v][osd/libass] Using font provider fontconfig
+[   0.163][v][osd/libass] Done.
+[   0.163][d][cplayer] Run command: define-section, flags=64, args=[name="input_forced_osc", contents="", flags="force"]
+[   0.164][v][ao] Trying audio driver 'pulse'
+[   0.164][v][ao/pulse] requested format: 48000 Hz, stereo channels, floatp
+[   0.164][v][ao/pulse] Library version: 17.0.0
+[   0.164][v][ao/pulse] Proto: 35
+[   0.171][v][ao/pulse] Server proto: 35
+[   0.171][v][ao/pulse] Channel layouts:
+[   0.171][v][ao/pulse]  - #fl
+[   0.171][v][ao/pulse]  - #fr
+[   0.171][v][ao/pulse]  - #fc
+[   0.171][v][ao/pulse]  - #lfe
+[   0.171][v][ao/pulse]  - #bl
+[   0.171][v][ao/pulse]  - #br
+[   0.171][v][ao/pulse]  - #flc
+[   0.171][v][ao/pulse]  - #frc
+[   0.171][v][ao/pulse]  - #bc
+[   0.171][v][ao/pulse]  - #sl
+[   0.171][v][ao/pulse]  - #sr
+[   0.171][v][ao/pulse]  - #tc
+[   0.171][v][ao/pulse]  - #tfl
+[   0.171][v][ao/pulse]  - #tfc
+[   0.171][v][ao/pulse]  - #tfr
+[   0.171][v][ao/pulse]  - #tbl
+[   0.171][v][ao/pulse]  - #tbc
+[   0.171][v][ao/pulse]  - #tbr
+[   0.171][v][ao/pulse] result: stereo
+[   0.188][v][ao/pulse] device buffer: 4800 samples.
+[   0.188][v][ao/pulse] using soft-buffer of 9600 samples.
+[   0.188][i][cplayer] AO: [pulse] 48000Hz stereo 2ch float
+[   0.188][v][cplayer] AO: Description: PulseAudio audio output
+[   0.189][v][autoconvert] inserting resampler
+[   0.189][v][swresample] format change, reinitializing resampler
+[   0.189][v][swresample] 48000Hz stereo floatp -> 48000Hz stereo float
+[   0.189][v][af] [out] 48000Hz stereo 2ch float
+[   0.189][d][cplayer] Run command: enable-section, flags=64, args=[name="input_forced_osc", flags="allow-hide-cursor+allow-vo-dragging"]
+[   0.189][i][cplayer] VO: [gpu] 1280x534 vaapi[p010]
+[   0.189][v][cplayer] VO: Description: Shader-based GPU Renderer
+[   0.189][v][vo/gpu] reconfig to 1280x534 vaapi[p010] bt.709/bt.709/bt.1886/limited/display CL=mpeg2/4/h264 crop=1280x534+0+0 A=none
+[   0.189][v][vo/gpu/wayland] Reconfiguring!
+[   0.189][d][vo/gpu] max content size: 2560x1600
+[   0.189][d][vo/gpu] monitor size: 2560x1600
+[   0.191][v][vo/gpu] Resize: 1280x534
+[   0.191][v][vo/gpu] Window size: 1280x534 (Borders: l=0 t=0 r=0 b=0)
+[   0.191][v][vo/gpu] Video source: 1280x534 (1:1)
+[   0.191][v][vo/gpu] Video display: (0, 0) 1280x534 -> (0, 0) 1280x534
+[   0.191][v][vo/gpu] Video scale: 1.000000/1.000000
+[   0.191][v][vo/gpu] OSD borders: l=0 t=0 r=0 b=0
+[   0.191][v][vo/gpu] Video borders: l=0 t=0 r=0 b=0
+[   0.191][v][vo/gpu] Testing FBO format rgba16f
+[   0.191][d][vo/gpu] Resizing texture: 16x16
+[   0.191][v][vo/gpu] Using FBO format rgba16f.
+[   0.191][v][vo/gpu/wayland] Handling resize on the egl side
+[   0.191][v][vo/gpu] Resize: 637x772
+[   0.191][v][vo/gpu] Window size: 637x772 (Borders: l=0 t=0 r=0 b=0)
+[   0.191][v][vo/gpu] Video source: 1280x534 (1:1)
+[   0.192][v][vo/gpu] Video display: (0, 0) 1280x534 -> (0, 253) 637x265
+[   0.192][v][vo/gpu] Video scale: 0.497656/0.496255
+[   0.192][v][vo/gpu] OSD borders: l=0 t=253 r=0 b=254
+[   0.192][v][vo/gpu] Video borders: l=0 t=253 r=0 b=254
+[   0.192][v][vo/gpu] Reported display depth: 10
+[   0.192][d][vo/gpu] Resizing texture: 640x534
+[   0.193][d][vo/gpu] Trying to load shader from disk...
+[   0.193][d][vo/gpu/opengl] Loading binary program succeeded.
+[   0.194][d][vo/gpu] Resizing texture: 1280x534
+[   0.198][d][vo/gpu] Trying to load shader from disk...
+[   0.198][d][vo/gpu/opengl] Loading binary program succeeded.
+[   0.198][d][vo/gpu] Resizing texture: 1280x534
+[   0.198][d][vo/gpu] Trying to load shader from disk...
+[   0.198][d][vo/gpu/opengl] Loading binary program succeeded.
+[   0.198][d][vo/gpu] Resizing texture: 1280x265
+[   0.199][d][vo/gpu] Trying to load shader from disk...
+[   0.199][d][vo/gpu/opengl] Loading binary program succeeded.
+[   0.199][v][vo/gpu] Dither to 10.
+[   0.221][d][vo/gpu] Trying to load shader from disk...
+[   0.221][d][vo/gpu/opengl] Loading binary program succeeded.
+[   0.226][v][vo/gpu/wayland] Surface entered output California Institute of Technology 0x1601 (eDP-1) (0x3f), scale = 1.000000, refresh rate = 120.005000 Hz
+[   0.226][v][vo/gpu/wayland] Resizing due to xdg from 637x772 to 2550x1544
+[   0.226][v][vo/gpu/wayland] Preferred surface feedback received:
+[   0.226][v][vo/gpu/wayland] transfer: gamma2.2, primaries: auto
+[   0.226][v][vo/gpu/wayland] transfer: min_luma=0.200000, max_luma=80.000000, ref_luma=80.000000
+[   0.226][v][vo/gpu/wayland] target: min_luma=0.000000, max_luma=0.000000, max_cll=0.000000, max_fall=0.000000
+[   0.226][v][vo/gpu/wayland]         raw prims: red.x=0.000000,   red.y=0.000000,
+[   0.226][v][vo/gpu/wayland]                    green.x=0.000000, green.y=0.000000,
+[   0.226][v][vo/gpu/wayland]                    blue.x=0.000000,  blue.y=0.000000,
+[   0.226][v][vo/gpu/wayland]                    white.x=0.000000, white.y=0.000000
+[   0.226][v][vo/gpu/wayland] Setting preferred transfer to PQ for HDR output.
+[   0.226][v][cplayer] first video frame after restart shown
+[   0.226][v][vo/gpu] Resize: 637x772
+[   0.226][v][vo/gpu] Window size: 637x772 (Borders: l=0 t=0 r=0 b=0)
+[   0.226][v][vo/gpu] Video source: 1280x534 (1:1)
+[   0.226][v][vo/gpu] Video display: (0, 0) 1280x534 -> (0, 253) 637x265
+[   0.226][v][vo/gpu] Video scale: 0.497656/0.496255
+[   0.226][v][vo/gpu] OSD borders: l=0 t=253 r=0 b=254
+[   0.226][v][vo/gpu] Video borders: l=0 t=253 r=0 b=254
+[   0.226][v][vo/gpu] Reported display depth: 10
+[   0.226][v][vo/gpu/wayland] Handling resize on the egl side
+[   0.226][v][vo/gpu] Resize: 2550x1544
+[   0.226][v][vo/gpu] Window size: 2550x1544 (Borders: l=0 t=0 r=0 b=0)
+[   0.226][v][vo/gpu] Video source: 1280x534 (1:1)
+[   0.226][v][vo/gpu] Video display: (0, 0) 1280x534 -> (0, 240) 2550x1063
+[   0.226][v][vo/gpu] Video scale: 1.992188/1.990637
+[   0.226][v][vo/gpu] OSD borders: l=0 t=240 r=0 b=241
+[   0.226][v][vo/gpu] Video borders: l=0 t=240 r=0 b=241
+[   0.226][v][vo/gpu] Reported display depth: 10
+[   0.227][d][vo/gpu] Trying to load shader from disk...
+[   0.227][d][vo/gpu/opengl] Loading binary program succeeded.
+[   0.227][d][vo/gpu] Resizing texture: 1280x1063
+[   0.231][d][vo/gpu] Resizing texture: 2550x1544
+[   0.242][d][vo/gpu] Trying to load shader from disk...
+[   0.242][d][vo/gpu/opengl] Loading binary program succeeded.
+[   0.253][d][osc] osc_init
+[   0.264][v][cplayer] audio ready
+[   0.264][d][cplayer] starting video playback
+[   0.264][v][cplayer] starting audio playback
+[   0.264][v][cplayer] playback restart complete @ 0.000000, audio=playing, video=playing
+[   0.264][v][vo/gpu/wayland] Enabling idle inhibitor
+[   0.264][v][ao/pulse] starting AO
+[   0.265][d][vo/gpu] Trying to load shader from disk...
+[   0.265][v][cplayer] Set property: user-data/osc/margins={"t":0,"b":0,"r":0,"l":0} -> 1
+[   0.265][d][vo/gpu/opengl] Loading binary program succeeded.
+[   0.266][d][osc] osc_init
+[   0.266][v][cplayer] Set property: user-data/osc/margins={"t":0,"b":0,"r":0,"l":0} -> 1
+[  31.114][d][cplayer] Run command: quit, flags=73, args=[code="4"]
+[  31.114][v][cplayer] EOF code: 5  
+[  31.114][d][ad] Uninit decoder.
+[  31.114][d][vd] Uninit decoder.
+[  31.117][v][vo/gpu/wayland] Disabling the idle inhibitor
+[  31.119][d][cplayer] Terminating demuxers...
+[  31.119][d][cplayer] Done terminating demuxers.
+[  31.119][v][cplayer] finished playback, success (reason 3)
+[  31.119][v][cplayer] Running hook: ytdl_hook/on_after_end_file
+[  31.119][d][cplayer] Run command: del, flags=64, args=[name="user-data/mpv/ytdl/json-subprocess-result"]
+[  31.119][i][cplayer] Exiting... (Quit)
+[  31.119][d][cplayer] Run command: del, flags=64, args=[name="user-data/osc"]
+[  31.120][d][cplayer] Run command: del, flags=64, args=[name="user-data/mpv/console"]
+[  31.120][d][positioning] Destroying client handle...
+[  31.120][d][context_menu] Destroying client handle...
+[  31.120][d][commands] Destroying client handle...
+[  31.120][d][stats] Destroying client handle...
+[  31.120][d][select] Destroying client handle...
+[  31.120][d][ytdl_hook] Destroying client handle...
+[  31.120][d][console] Destroying client handle...
+[  31.120][d][osc] Destroying client handle...
+[  31.131][d][vo/gpu] flushing shader cache
+[  31.144][v][vo/gpu/wayland] Deregistering output California Institute of Technology 0x1601 (eDP-1) (0x3f)
+[  31.144][v][vo/gpu/wayland] Deregistering seat 0x1
+[  31.145][v][clipboard/wayland] Deregistering seat 0x1

@@ -1,0 +1,29 @@
+# ~/.config/ncmpcpp/config
+
+## MPD connection settings
+mpd_host = "localhost"
+mpd_port = "6600"
+mpd_music_dir = "~/Music"
+
+## User interface
+playlist_display_mode = "columns"
+song_columns_list_format = "(20)[red]{a} (40)[green]{t} (7f)[yellow]{l}"
+progressbar_look = "─•─"
+user_interface = "classic"
+
+## Visuals
+colors_enabled = "yes"
+main_window_color = "white"
+header_window_color = "yellow"
+volume_color = "red"
+progressbar_color = "cyan"
+statusbar_color = "green"
+
+## Behavior
+autocenter_mode = "yes"
+centered_cursor = "yes"
+incremental_seeking = "yes"
+follow_now_playing_lyrics = "yes"
+display_bitrate = "yes"
+
+

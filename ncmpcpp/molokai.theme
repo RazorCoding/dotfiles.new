@@ -1,0 +1,38 @@
+# Molokai color palette:
+# Background:  #1B1D1E
+# Foreground:  #F8F8F2
+# Red:         #F92672
+# Green:       #A6E22E
+# Yellow:      #F4BF75
+# Blue:        #66D9EF
+# Magenta:     #AE81FF
+# Cyan:        #38CCD1
+# Gray:        #75715E
+
+# General UI
+foreground           = white
+background           = black
+header_window_color  = magenta
+volume_color         = green
+state_line_color     = cyan
+active_window_color  = yellow
+
+# Browser
+main_window_color        = white
+main_window_highlight_color = magenta
+current_item_inactive_column_color = cyan
+current_item_column_color = green
+
+# Statusbar
+statusbar_color       = white
+statusbar_time_color  = cyan
+statusbar_song_color  = green
+
+# Progress bar
+progressbar_color     = magenta
+progressbar_elapsed_color = green
+
+# Playlist
+playlist_current_color = yellow
+playlist_marked_co
+
