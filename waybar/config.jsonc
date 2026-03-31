@@ -16,22 +16,23 @@
   ],
 
   "modules-right":[
-  "idle_inhibitor",
   "custom/sep",
+  "idle_inhibitor",
+  "custom/sep", 
   "backlight",
-"custom/sep",  
+ "custom/sep",
 "pulseaudio",
-"custom/sep",
+ "custom/sep",
   "custom/battery_health",
-"custom/sep",
+ "custom/sep",
   "network",
-"custom/sep",
+ "custom/sep",
   "custom/cava",
-"custom/sep",
+  "custom/sep", 
   "battery",
-"custom/sep",
+ "custom/sep",
   "clock",
-"custom/sep",
+ "custom/sep",
   "tray" 
 ],
 
@@ -107,13 +108,6 @@
   },
 
 
-  "temperature": {
-  "hwmon-path": "/sys/class/hwmon/hwmon5/temp1_input",
-  "format": " {temperatureC}°C",
-  "critical-threshold": 85,
-  "interval": 0
-},
-
 "custom/cpu": {
   "exec": "~/.config/waybar/scripts/cpu",
   "interval": 4
@@ -159,6 +153,7 @@
   "format-disconnected": "",
   "tooltip-format": "SSID: {essid}\nSignal: {signalStrength}%\nIP: {ipaddr}\n↓ {bandwidthDownBits} ↑ {bandwidthUpBits}"
 },
+
   "custom/cpu": {
     "format": " {}",
     "exec": "mpstat 1 1 | awk '/Average:/ {printf(\"%.1f%%\", 100 - $NF)}'",
@@ -224,4 +219,11 @@
     "format": "",
     "tooltip": false
 }
+},
+ "temperature": {
+     "thermal-zone": 2,
+     "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+     "critical-threshold": 80,
+     "format-critical": "{temperatureC}°C ",
+    "format": "{temperatureC}°C "
 }
