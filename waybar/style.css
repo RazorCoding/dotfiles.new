@@ -73,7 +73,8 @@
 #memory,
 #network,
 #pulseaudio,
-#backlight{
+#backlight,
+#bluetooth{
 	padding: 0 5px;
 }
 
@@ -103,17 +104,17 @@
 #custom-cava
 {
 	font-size: 25px;
-        color: #a83e32;   /* transparent red */
+        color: rgba(181, 7, 7,0.6);   /* transparent red */
 }
 
 #network.wifi {
-    color: #0ff000;
-  animation: net-blink 0.3s infinite alternate;
+    color: #2fff00;
+   animation: net-blink 0.2s infinite alternate;
 }
 
 #network.disconnected {
     color: #ff0000;
-    animation: net-blink-fast 0.3s infinite alternate;
+    animation: net-blink-fast 0.2s infinite alternate;
 }
 
 
@@ -140,8 +141,8 @@
 #battery.charging,
 #battery.plugged
 {
-	color: #0ff000;
-       animation: bat-blink 0.4s infinite alternate;
+	color: #ff8400;
+       /*animation: bat-blink 0.1s infinite alternate;*/
 	
 }
 #battery.discharging,
@@ -175,3 +176,4 @@
 	font-size: 21px;
 	color: #ff0000;
 }
+
