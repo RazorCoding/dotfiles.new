@@ -1,0 +1,52 @@
+2. Fixes for NVIDIA + Vulkan on Arch
+Run these in a terminal and report which ones change behavior:
+
+A. Install Vulkan deps for NVIDIA
+On Arch with an NVIDIA dGPU + Optimus (AMD iGPU), you need:
+
+bash
+sudo pacman -S \
+    vulkan-icd-loader \
+    lib32-vulkan-icd-loader \
+    nvidia-utils \
+    lib32-nvidia-utils \
+    nvidia-prime
+Then remove conflicting mesa‑based Vulkan drivers if you’re not using them:
+
+bash
+sudo pacman -Rdd amdvlk 2>/dev/null || true
+sudo pacman -Rdd lib32-amdvlk 2>/dev/null || true
+Many users fix the VK_KHR_surface error this way.
+
+B. Force NVIDIA Vulkan in Steam
+If you still see the error, start Steam with NVIDIA Vulkan explicitly:
+
+bash
+VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/nvidia_icd.json prime-run steam
+If that doesn’t work, try without prime‑run first to see which Vulkan driver is actually picked:
+
+bash
+vulkaninfo --summary
+You should see your NVIDIA card; if it’s only AMD‑only, Vulkan is not routing to the NVIDIA ICD.
+
+C. Check if Vulkan is at all working
+Run:
+
+bash
+vkcube
+If this crashes or says “no Vulkan device found”, then the system‑level Vulkan stack is broken; Steam will never initialize.
+
+3. If you’re on a NVIDIA‑only desktop (no Optimus)
+If this is not an Optimus laptop and you’re just using NVIDIA:
+
+bash
+sudo pacman -S nvidia-utils lib32-nvidia-utils vulkan-icd-loader lib32-vulkan-icd-loader
+VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/nvidia_icd.json steam
+No prime‑run needed in that case.
+
+4. Quick test to confirm Steam picks NVIDIA
+Once Vulkan works (vkcube runs), check:
+
+bash
+VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/nvidia_icd.json prime-run steam --no-xt
+Then in Steam → Settings → About, it should show your NVIDIA GPU, not AMD Radeon Graphics (RADV RENOIR).
