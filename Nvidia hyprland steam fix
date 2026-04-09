@@ -50,3 +50,5 @@ Once Vulkan works (vkcube runs), check:
 bash
 VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/nvidia_icd.json prime-run steam --no-xt
 Then in Steam → Settings → About, it should show your NVIDIA GPU, not AMD Radeon Graphics (RADV RENOIR).
+
+bind = $mainMod, X, exec,  VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/nvidia_icd.json GDK_SCALE=1 GDK_DPI_SCALE=1.4 prime-run steam
