@@ -1,0 +1,35 @@
+🔥 1. Metasploitable (best starting point)
+Created by Rapid7 (same people behind Metasploit)
+Designed specifically to be hacked
+Works perfectly with Metasploit Framework
+
+Docker version:
+
+docker run -it --rm -p 8080:80 tleemcjr/metasploitable2
+
+👉 Vulnerabilities:
+
+Old Apache, FTP, SSH
+Weak credentials
+Known CVEs (easy for practice)
+🐳 2. DVWA (Damn Vulnerable Web App)
+Great for web hacking (SQLi, XSS, CSRF)
+docker run -d -p 8081:80 vulnerables/web-dvwa
+
+Works well with Metasploit + manual testing.
+
+💀 3. OWASP Juice Shop (modern + realistic)
+Maintained by OWASP
+More modern vulnerabilities than DVWA
+docker run -d -p 3000:3000 bkimminich/juice-shop
+🧪 4. Vulhub (huge collection)
+Repo with many vulnerable environments
+git clone https://github.com/vulhub/vulhub
+cd vulhub
+docker-compose up -d
+
+👉 Includes:
+
+Apache Struts exploits
+Redis, Elasticsearch, etc.
+Real-world CVEs
