@@ -1,0 +1,74 @@
+#!/usr/bin/env python3
+import gi
+gi.require_version("Playerctl", "2.0")
+
+from gi.repository import Playerctl, GLib
+
+import subprocess
+import os
+import tempfile
+import urllib.request
+
+manager = Playerctl.PlayerManager()
+
+last_trackid = None
+
+
+def on_metadata(player, metadata):
+    global last_trackid
+
+    data = metadata.unpack()
+
+    # Ignore duplicate metadata signals
+    trackid = str(data.get("mpris:trackid"))
+    if trackid == last_trackid:
+        return
+    last_trackid = trackid
+
+    title = player.get_title() or "Unknown Title"
+    artist = player.get_artist() or "Unknown Artist"
+    album = data.get("xesam:album", "Unknown Album")
+
+    icon = None
+    art = data.get("mpris:artUrl")
+    print(data.get("mpris:artUrl"))
+
+    if art:
+        if art.startswith("file://"):
+            icon = art[7:]
+        elif art.startswith("http://") or art.startswith("https://"):
+            fd, icon = tempfile.mkstemp(suffix=".jpg")
+            os.close(fd)
+            urllib.request.urlretrieve(art, icon)
+
+    cmd = [
+        "notify-send",
+        title,
+        f"Artist: {artist}\nAlbum: {album}",
+        "-a", "Spotify",
+        "-h", "string:x-canonical-private-synchronous:spotify",
+    ]
+
+    if icon:
+        cmd.extend(["-i", icon])
+
+    subprocess.run(cmd) 
+def on_name_appeared(manager, player_name):
+    if player_name.name != "spotify":
+        return
+
+    print(f"Spotify appeared: {player_name.name}")
+
+    player = Playerctl.Player.new_from_name(player_name)
+    player.connect("metadata", on_metadata)
+    manager.manage_player(player)
+
+
+manager.connect("name-appeared", on_name_appeared)
+
+# Manage Spotify if it's already running
+for player_name in Playerctl.list_players():
+    on_name_appeared(manager, player_name)
+
+print("Listening for Spotify track changes...")
+GLib.MainLoop().run()
